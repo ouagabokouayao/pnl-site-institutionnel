@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Le sitemap sera finalisé après validation du nom de domaine. -->
+  <url><loc>https://protegeonsnotrelittoral.org/</loc></url>
+  <url><loc>https://protegeonsnotrelittoral.org/a-propos.html</loc></url>
+  <url><loc>https://protegeonsnotrelittoral.org/notre-histoire.html</loc></url>
+  <url><loc>https://protegeonsnotrelittoral.org/mission-vision-valeurs.html</loc></url>
+  <url><loc>https://protegeonsnotrelittoral.org/programmes.html</loc></url>
+  <url><loc>https://protegeonsnotrelittoral.org/observatoire.html</loc></url>
+  <url><loc>https://protegeonsnotrelittoral.org/actions-projets.html</loc></url>
+  <url><loc>https://protegeonsnotrelittoral.org/actualites.html</loc></url>
+  <url><loc>https://protegeonsnotrelittoral.org/ressources.html</loc></url>
+  <url><loc>https://protegeonsnotrelittoral.org/partenaires.html</loc></url>
+  <url><loc>https://protegeonsnotrelittoral.org/adherer-soutenir.html</loc></url>
+  <url><loc>https://protegeonsnotrelittoral.org/contact.html</loc></url>
+  <url><loc>https://protegeonsnotrelittoral.org/mentions-legales.html</loc></url>
 </urlset>
