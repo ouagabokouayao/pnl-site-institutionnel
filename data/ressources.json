@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Fiches ressources littorales",
+    "type": "resource",
+    "status": "draft",
+    "publication": "public_after_validation"
+  },
+  {
+    "title": "Bibliothèque documentaire vulgarisée",
+    "type": "library",
+    "status": "draft",
+    "publication": "public_after_validation"
+  },
+  {
+    "title": "Rapports publics validés",
+    "type": "report",
+    "status": "draft",
+    "publication": "public_after_validation"
+  },
+  {
+    "title": "Archives internes sensibles",
+    "type": "archive",
+    "status": "internal_only",
+    "publication": "not_public"
+  }
+]

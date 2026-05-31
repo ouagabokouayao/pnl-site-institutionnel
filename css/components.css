@@ -1,0 +1,245 @@
+.site-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  text-decoration: none;
+  line-height: 1.1;
+  min-width: 0;
+}
+
+.site-logo img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.menu-toggle {
+  display: none;
+  border: 1px solid var(--color-primary);
+  background: transparent;
+  color: var(--color-primary);
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+@media (max-width: 920px) {
+  button.menu-toggle {
+    display: inline-flex !important;
+  }
+}
+
+.page-hero {
+  padding-block: clamp(4.5rem, 8vw, 7.5rem);
+  background: linear-gradient(135deg, #f7faf9 0%, #e7f3f5 58%, #f8f0df 100%);
+  border-bottom: 1px solid var(--color-line);
+}
+
+.eyebrow,
+.section-kicker {
+  color: var(--color-accent);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.78rem;
+  margin-bottom: 0.75rem;
+}
+
+.hero-lead {
+  max-width: 780px;
+  margin-top: 1.1rem;
+  color: var(--color-text);
+  font-size: clamp(1.08rem, 2vw, 1.35rem);
+}
+
+.hero-card,
+.status-panel,
+.callout,
+.empty-state,
+.info-card {
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius);
+  background: var(--color-white);
+}
+
+.hero-card {
+  padding: 1.1rem;
+  box-shadow: var(--shadow-soft);
+  min-width: 0;
+  overflow: hidden;
+}
+
+.hero-logo {
+  width: min(100%, 320px);
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: var(--radius);
+  margin-bottom: 1rem;
+}
+
+.card-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.6rem;
+}
+
+.two-cols {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.three-cols {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.info-card,
+.status-panel,
+.callout,
+.empty-state {
+  padding: 1.25rem;
+}
+
+.info-card h2,
+.info-card h3,
+.status-panel h3,
+.callout h2,
+.empty-state h2 {
+  margin-bottom: 0.65rem;
+}
+
+.info-card.emphasis {
+  border-top: 4px solid var(--color-secondary);
+}
+
+.feature-list {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.feature-list article {
+  border-left: 4px solid var(--color-gold);
+  padding: 0.8rem 0 0.8rem 1rem;
+  background: rgba(244, 239, 230, 0.5);
+}
+
+.callout-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  border-radius: 999px;
+  padding: 0.75rem 1rem;
+  background: var(--color-primary);
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.button-secondary {
+  background: var(--color-white);
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: flex-end;
+}
+
+.timeline {
+  display: grid;
+  gap: 1rem;
+}
+
+.timeline article {
+  border-left: 4px solid var(--color-secondary);
+  padding: 1rem 1rem 1rem 1.2rem;
+  background: var(--color-white);
+}
+
+.timeline span {
+  color: var(--color-coral);
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+}
+
+.value-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.value-grid span {
+  border: 1px solid var(--color-line);
+  border-radius: 999px;
+  background: var(--color-white);
+  padding: 0.55rem 0.8rem;
+  font-weight: 700;
+}
+
+.legal-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.legal-list article {
+  border-bottom: 1px solid var(--color-line);
+  padding-bottom: 1rem;
+}
+
+.footer-brand,
+.footer-title {
+  font-weight: 800;
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 780px) {
+  .site-logo {
+    gap: 0.55rem;
+    max-width: calc(100% - 76px);
+  }
+
+  .site-logo img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .site-logo span {
+    font-size: 0.95rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .two-cols,
+  .three-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .callout-row {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .button-row {
+    width: 100%;
+  }
+}

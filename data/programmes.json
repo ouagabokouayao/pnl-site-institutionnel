@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Observatoire Protégeons notre Littoral",
+    "slug": "observatoire-protegeons-notre-littoral",
+    "status": "draft",
+    "publication": "public_after_validation",
+    "description": "Veille, documentation, fiches ressources, bibliothèque et vulgarisation.",
+    "planned_activities": ["Fiches ressources", "Contenus pédagogiques", "Contribution citoyenne"],
+    "program_status": "Programme en structuration progressive dans le cadre de la relance de l’ONG."
+  },
+  {
+    "title": "Jeunesse Littorale & Climat",
+    "slug": "jeunesse-littorale-climat",
+    "status": "draft",
+    "publication": "public_after_validation",
+    "description": "Mobilisation des jeunes, étudiants, écoles et bénévoles.",
+    "planned_activities": ["Appel à membres", "Mobilisation de bénévoles", "Sensibilisation jeunesse"],
+    "program_status": "Programme en structuration progressive dans le cadre de la relance de l’ONG."
+  },
+  {
+    "title": "Lagunes, Mangroves & Biodiversité",
+    "slug": "lagunes-mangroves-biodiversite",
+    "status": "draft",
+    "publication": "public_after_validation",
+    "description": "Sensibilisation et actions autour des écosystèmes littoraux et lagunaires.",
+    "planned_activities": ["Contenus pédagogiques", "Journées littorales", "Actions terrain à documenter"],
+    "program_status": "Programme en structuration progressive dans le cadre de la relance de l’ONG."
+  },
+  {
+    "title": "Zéro Déchet Littoral",
+    "slug": "zero-dechet-littoral",
+    "status": "draft",
+    "publication": "public_after_validation",
+    "description": "Campagnes de sensibilisation, nettoyage, déchets plastiques et comportements citoyens.",
+    "planned_activities": ["Campagnes citoyennes", "Actions terrain à confirmer"],
+    "program_status": "Programme en structuration progressive dans le cadre de la relance de l’ONG."
+  },
+  {
+    "title": "Dialogues du Littoral",
+    "slug": "dialogues-du-littoral",
+    "status": "draft",
+    "publication": "public_after_validation",
+    "description": "Webinaires, conférences, rencontres et échanges multi-acteurs.",
+    "planned_activities": ["Webinaires", "Rencontres", "Échanges institutionnels à confirmer"],
+    "program_status": "Programme en structuration progressive dans le cadre de la relance de l’ONG."
+  },
+  {
+    "title": "Mémoire du Littoral",
+    "slug": "memoire-du-littoral",
+    "status": "draft",
+    "publication": "public_after_validation",
+    "description": "Archives, récits, photos, témoignages et valorisation du patrimoine littoral.",
+    "planned_activities": ["Classement de ressources autorisées", "Récits validés", "Valorisation prudente du patrimoine littoral"],
+    "program_status": "Programme en structuration progressive dans le cadre de la relance de l’ONG."
+  }
+]
