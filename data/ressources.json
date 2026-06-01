@@ -2,20 +2,20 @@
   {
     "title": "Fiches ressources littorales",
     "type": "resource",
-    "status": "draft",
-    "publication": "public_after_validation"
+    "status": "public_framework",
+    "publication": "public"
   },
   {
     "title": "Bibliothèque documentaire vulgarisée",
     "type": "library",
-    "status": "draft",
-    "publication": "public_after_validation"
+    "status": "public_framework",
+    "publication": "public"
   },
   {
     "title": "Rapports publics validés",
     "type": "report",
-    "status": "draft",
-    "publication": "public_after_validation"
+    "status": "public_framework",
+    "publication": "public"
   },
   {
     "title": "Archives internes sensibles",
