@@ -81,8 +81,20 @@
 }
 
 @media (max-width: 920px) {
+  .header-inner {
+    position: relative;
+    padding-right: 5.25rem;
+  }
+
   .menu-toggle {
     display: inline-flex;
+    flex: 0 0 auto;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 20;
+    transform: translateY(-50%);
+    background: var(--color-white);
   }
 
   .site-nav {

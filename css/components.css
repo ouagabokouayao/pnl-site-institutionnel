@@ -10,14 +10,15 @@
 }
 
 .site-logo img {
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  object-fit: cover;
+  width: 54px;
+  height: 54px;
+  border-radius: 10px;
+  object-fit: contain;
+  background: var(--color-white);
 }
 
 .menu-toggle {
-  display: none;
+  display: inline-flex;
   border: 1px solid var(--color-primary);
   background: transparent;
   color: var(--color-primary);
@@ -26,9 +27,9 @@
   cursor: pointer;
 }
 
-@media (max-width: 920px) {
-  button.menu-toggle {
-    display: inline-flex !important;
+@media (min-width: 921px) {
+  .menu-toggle {
+    display: none;
   }
 }
 
@@ -81,7 +82,7 @@
 .hero-logo {
   width: min(100%, 320px);
   aspect-ratio: 1;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: var(--radius);
   margin-bottom: 1rem;
 }
@@ -197,6 +198,8 @@
     linear-gradient(135deg, rgba(6, 74, 86, 0.92), rgba(31, 122, 140, 0.74)),
     radial-gradient(circle at 78% 20%, rgba(244, 179, 80, 0.5), transparent 30%),
     linear-gradient(160deg, #e9f5f2 0%, #c7e3df 45%, #f4efe6 100%);
+  background-size: cover;
+  background-position: center;
 }
 
 .visual-panel::before {
@@ -204,6 +207,7 @@
   position: absolute;
   inset: 0;
   background:
+    linear-gradient(180deg, rgba(6, 38, 50, 0.08), rgba(6, 38, 50, 0.42)),
     linear-gradient(120deg, transparent 0 35%, rgba(255, 255, 255, 0.16) 35% 36%, transparent 36% 100%),
     repeating-linear-gradient(165deg, rgba(255, 255, 255, 0.12) 0 1px, transparent 1px 18px);
 }
@@ -221,17 +225,19 @@
   max-width: 12ch;
 }
 
-.visual-about { background-color: #0f6570; }
-.visual-history { background-color: #386f68; }
-.visual-mission { background-color: #245d74; }
-.visual-programs { background-color: #0f6f72; }
-.visual-observatory { background-color: #145c68; }
-.visual-actions { background-color: #1d7462; }
-.visual-news { background-color: #345f7b; }
-.visual-resources { background-color: #4b6f74; }
-.visual-support { background-color: #1c6c63; }
-.visual-contact { background-color: #235f75; }
-.visual-legal { background-color: #475f68; }
+.visual-home { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.48), rgba(31, 122, 140, 0.18)), url("../assets/images/pages/pnl-visuel-accueil.jpg"); }
+.visual-about { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.5), rgba(31, 122, 140, 0.2)), url("../assets/images/pages/pnl-visuel-a-propos.jpg"); }
+.visual-history { background-image: linear-gradient(135deg, rgba(56, 111, 104, 0.52), rgba(11, 61, 92, 0.22)), url("../assets/images/pages/pnl-visuel-histoire.jpg"); }
+.visual-mission { background-image: linear-gradient(135deg, rgba(36, 93, 116, 0.5), rgba(46, 125, 91, 0.2)), url("../assets/images/pages/pnl-visuel-mission.jpg"); }
+.visual-programs { background-image: linear-gradient(135deg, rgba(15, 111, 114, 0.5), rgba(11, 61, 92, 0.18)), url("../assets/images/pages/pnl-visuel-programmes.jpg"); }
+.visual-observatory { background-image: linear-gradient(135deg, rgba(20, 92, 104, 0.48), rgba(46, 125, 91, 0.22)), url("../assets/images/pages/pnl-visuel-observatoire.jpg"); }
+.visual-actions { background-image: linear-gradient(135deg, rgba(29, 116, 98, 0.46), rgba(11, 61, 92, 0.2)), url("../assets/images/pages/pnl-visuel-actions.jpg"); }
+.visual-news { background-image: linear-gradient(135deg, rgba(52, 95, 123, 0.48), rgba(11, 61, 92, 0.18)), url("../assets/images/pages/pnl-visuel-actualites.jpg"); }
+.visual-resources { background-image: linear-gradient(135deg, rgba(75, 111, 116, 0.52), rgba(46, 125, 91, 0.18)), url("../assets/images/pages/pnl-visuel-ressources.jpg"); }
+.visual-partners { background-image: linear-gradient(135deg, rgba(35, 95, 117, 0.48), rgba(31, 164, 99, 0.18)), url("../assets/images/pages/pnl-visuel-partenaires.jpg"); }
+.visual-support { background-image: linear-gradient(135deg, rgba(28, 108, 99, 0.5), rgba(11, 61, 92, 0.18)), url("../assets/images/pages/pnl-visuel-soutenir.jpg"); }
+.visual-contact { background-image: linear-gradient(135deg, rgba(35, 95, 117, 0.46), rgba(46, 125, 91, 0.2)), url("../assets/images/pages/pnl-visuel-contact.jpg"); }
+.visual-legal { background-image: linear-gradient(135deg, rgba(71, 95, 104, 0.55), rgba(11, 61, 92, 0.24)), url("../assets/images/pages/pnl-visuel-contact.jpg"); }
 
 .timeline {
   display: grid;
@@ -282,15 +288,32 @@
   margin-bottom: 0.4rem;
 }
 
+.footer-brandline {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 0.55rem;
+}
+
+.footer-brandline img {
+  width: 52px;
+  height: 52px;
+  border-radius: 10px;
+  object-fit: contain;
+  background: var(--color-white);
+  padding: 0.18rem;
+}
+
 @media (max-width: 780px) {
   .site-logo {
+    flex: 1 1 auto;
     gap: 0.55rem;
-    max-width: calc(100% - 76px);
+    max-width: 100%;
   }
 
   .site-logo img {
-    width: 42px;
-    height: 42px;
+    width: 44px;
+    height: 44px;
   }
 
   .site-logo span {
@@ -298,6 +321,16 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+
+  h1,
+  h2,
+  .hero-lead {
+    overflow-wrap: anywhere;
+  }
+
+  .visual-panel {
+    min-height: 260px;
   }
 
   .two-cols,
