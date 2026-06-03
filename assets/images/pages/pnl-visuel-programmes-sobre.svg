@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-label="Illustration sobre de programmes littoraux">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef8f8"/>
+      <stop offset="0.58" stop-color="#d7edf0"/>
+      <stop offset="1" stop-color="#f2e8d5"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B3D5C"/>
+      <stop offset="1" stop-color="#1E88A8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="900" fill="url(#bg)"/>
+  <path d="M0 610 C230 528 430 532 662 602 C884 668 1104 660 1440 548 L1440 900 L0 900 Z" fill="url(#water)" opacity="0.92"/>
+  <path d="M0 686 C260 618 500 636 752 708 C990 776 1192 752 1440 672 L1440 900 L0 900 Z" fill="#F2E8D5"/>
+  <g transform="translate(315 150)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="405" cy="230" r="108" fill="#ffffff" opacity="0.8" stroke="#d8e7e7" stroke-width="4"/>
+    <circle cx="405" cy="230" r="46" fill="#2E7D5B" opacity="0.92"/>
+    <g stroke="#0B3D5C" stroke-width="16" opacity="0.86">
+      <path d="M405 72 V22"/>
+      <path d="M405 438 V388"/>
+      <path d="M247 230 H197"/>
+      <path d="M613 230 H563"/>
+      <path d="M293 118 L258 83"/>
+      <path d="M517 342 L552 377"/>
+      <path d="M517 118 L552 83"/>
+      <path d="M293 342 L258 377"/>
+    </g>
+    <g fill="#ffffff" stroke="#1E88A8" stroke-width="5">
+      <circle cx="405" cy="22" r="42"/>
+      <circle cx="405" cy="438" r="42"/>
+      <circle cx="197" cy="230" r="42"/>
+      <circle cx="613" cy="230" r="42"/>
+      <circle cx="258" cy="83" r="42"/>
+      <circle cx="552" cy="377" r="42"/>
+      <circle cx="552" cy="83" r="42"/>
+      <circle cx="258" cy="377" r="42"/>
+    </g>
+  </g>
+  <path d="M160 565 C320 510 495 518 675 570 C890 632 1100 620 1295 550" fill="none" stroke="#ffffff" stroke-width="10" opacity="0.58"/>
+</svg>

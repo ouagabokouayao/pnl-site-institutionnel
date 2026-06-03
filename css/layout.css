@@ -82,6 +82,7 @@
 
 @media (max-width: 920px) {
   .header-inner {
+    box-sizing: border-box;
     position: relative;
     padding-right: 5.25rem;
   }

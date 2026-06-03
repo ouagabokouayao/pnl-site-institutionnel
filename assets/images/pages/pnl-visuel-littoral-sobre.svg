@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-label="Illustration sobre d'un littoral et d'une lagune">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8f5f7"/>
+      <stop offset="0.55" stop-color="#d7edf0"/>
+      <stop offset="1" stop-color="#f2e8d5"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B3D5C"/>
+      <stop offset="0.55" stop-color="#1E88A8"/>
+      <stop offset="1" stop-color="#2E7D5B"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F2E8D5"/>
+      <stop offset="1" stop-color="#d9c8a7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="900" fill="url(#sky)"/>
+  <circle cx="1130" cy="180" r="96" fill="#f2d7a0" opacity="0.72"/>
+  <path d="M0 490 C210 410 425 405 650 468 C862 527 1044 530 1230 455 C1315 421 1385 405 1440 400 L1440 900 L0 900 Z" fill="url(#sea)"/>
+  <path d="M0 595 C230 520 420 525 650 590 C885 656 1125 653 1440 548 L1440 900 L0 900 Z" fill="#f4efe6" opacity="0.88"/>
+  <path d="M0 662 C270 592 520 610 780 675 C1004 730 1215 726 1440 646 L1440 900 L0 900 Z" fill="url(#sand)" opacity="0.96"/>
+  <path d="M0 525 C225 458 430 466 648 526 C850 581 1050 584 1264 498 C1335 470 1394 456 1440 452" fill="none" stroke="#ffffff" stroke-width="12" opacity="0.62"/>
+  <path d="M0 572 C260 505 492 518 720 584 C910 639 1126 639 1440 535" fill="none" stroke="#ffffff" stroke-width="7" opacity="0.46"/>
+  <g opacity="0.72" fill="none" stroke="#2E7D5B" stroke-width="12" stroke-linecap="round">
+    <path d="M132 420 C190 370 250 358 325 390"/>
+    <path d="M185 420 C222 390 262 386 312 405"/>
+    <path d="M1110 356 C1180 300 1252 294 1340 332"/>
+    <path d="M1170 365 C1210 336 1260 334 1312 356"/>
+  </g>
+  <g opacity="0.18" stroke="#0B3D5C" stroke-width="2">
+    <path d="M95 145 H540"/>
+    <path d="M95 183 H460"/>
+    <path d="M95 221 H610"/>
+  </g>
+</svg>
