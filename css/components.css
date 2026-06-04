@@ -9,9 +9,9 @@
 
 .site-logo img {
   display: block;
-  width: clamp(170px, 15vw, 220px);
+  width: clamp(180px, 16vw, 235px);
   height: auto;
-  max-height: 50px;
+  max-height: 54px;
   object-fit: contain;
 }
 
@@ -210,7 +210,7 @@
     linear-gradient(135deg, rgba(6, 74, 86, 0.92), rgba(31, 122, 140, 0.74)),
     radial-gradient(circle at 78% 20%, rgba(244, 179, 80, 0.5), transparent 30%),
     linear-gradient(160deg, #e9f5f2 0%, #c7e3df 45%, #f4efe6 100%);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -220,25 +220,25 @@
   display: none;
 }
 
-.visual-home { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.18), rgba(31, 122, 140, 0.06)), url("../assets/images/pages/pnl-visuel-accueil.webp"); }
-.visual-about { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.18), rgba(31, 122, 140, 0.06)), url("../assets/images/pages/pnl-visuel-a-propos.webp"); }
-.visual-history { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.18), rgba(31, 122, 140, 0.06)), url("../assets/images/pages/pnl-visuel-histoire.webp"); }
-.visual-mission { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.18), rgba(31, 122, 140, 0.06)), url("../assets/images/pages/pnl-visuel-mission.webp"); }
-.visual-programs { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.18), rgba(31, 122, 140, 0.06)), url("../assets/images/pages/pnl-visuel-programmes.webp"); }
-.visual-observatory { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.18), rgba(31, 122, 140, 0.06)), url("../assets/images/pages/pnl-visuel-observatoire.webp"); }
-.visual-actions { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.18), rgba(31, 122, 140, 0.06)), url("../assets/images/pages/pnl-visuel-actions.webp"); }
-.visual-news { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.18), rgba(31, 122, 140, 0.06)), url("../assets/images/pages/pnl-visuel-actualites.webp"); }
-.visual-resources { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.18), rgba(31, 122, 140, 0.06)), url("../assets/images/pages/pnl-visuel-ressources.webp"); }
-.visual-partners { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.18), rgba(31, 122, 140, 0.06)), url("../assets/images/pages/pnl-visuel-partenaires.webp"); }
-.visual-support { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.18), rgba(31, 122, 140, 0.06)), url("../assets/images/pages/pnl-visuel-soutenir.webp"); }
-.visual-contact { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.18), rgba(31, 122, 140, 0.06)), url("../assets/images/pages/pnl-visuel-contact.webp"); }
-.visual-legal { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.18), rgba(31, 122, 140, 0.06)), url("../assets/images/pages/pnl-visuel-contact.webp"); }
-.visual-governance { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.24), rgba(31, 122, 140, 0.08)), url("../assets/images/pages/pnl-visuel-programmes.webp"); }
-.visual-membership { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.2), rgba(244, 179, 80, 0.08)), url("../assets/images/pages/pnl-visuel-soutenir.webp"); }
-.visual-volunteer { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.2), rgba(31, 122, 140, 0.08)), url("../assets/images/pages/pnl-visuel-actions.webp"); }
-.visual-partnership { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.22), rgba(31, 122, 140, 0.08)), url("../assets/images/pages/pnl-visuel-partenaires.webp"); }
-.visual-press { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.2), rgba(31, 122, 140, 0.08)), url("../assets/images/pages/pnl-visuel-actualites.webp"); }
-.visual-transparency { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.2), rgba(31, 122, 140, 0.08)), url("../assets/images/pages/pnl-visuel-ressources.webp"); }
+.visual-home { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-accueil.webp"); }
+.visual-about { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-a-propos.webp"); }
+.visual-history { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-histoire.webp"); }
+.visual-mission { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-mission.webp"); }
+.visual-programs { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-programmes.webp"); }
+.visual-observatory { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-observatoire.webp"); }
+.visual-actions { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-actions.webp"); }
+.visual-news { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.14), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-actions.webp"); }
+.visual-resources { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-ressources.webp"); }
+.visual-partners { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-partenaires.webp"); }
+.visual-support { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-soutenir.webp"); }
+.visual-contact { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-contact.webp"); }
+.visual-legal { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.14), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-gouvernance.webp"); }
+.visual-governance { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-gouvernance.webp"); }
+.visual-membership { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-devenir-membre.webp"); }
+.visual-volunteer { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-devenir-benevole.webp"); }
+.visual-partnership { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-proposer-partenariat.webp"); }
+.visual-press { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.14), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-actions.webp"); }
+.visual-transparency { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.14), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-ressources.webp"); }
 
 .timeline {
   display: grid;
@@ -306,25 +306,26 @@
 }
 
 .footer-brandline .footer-logo {
-  width: min(260px, 100%);
+  width: min(280px, 100%);
   height: auto;
-  max-height: 82px;
+  max-height: 88px;
   border-radius: 0;
   background: transparent;
   padding: 0;
 }
 
 @media (max-width: 780px) {
+
   .site-logo {
     flex: 0 0 auto;
-    max-width: 52px;
+    max-width: min(148px, calc(100vw - 8.8rem));
   }
 
   .site-logo img {
-    content: url("../assets/images/identity/pnl-favicon-512.png");
-    width: 44px;
-    height: 44px;
-    max-height: 44px;
+    content: url("../assets/img/identity/pnl-logo-mobile.png");
+    width: min(148px, calc(100vw - 8.8rem));
+    height: auto;
+    max-height: 46px;
   }
 
   h1,
