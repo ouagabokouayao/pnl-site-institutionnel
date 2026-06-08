@@ -385,3 +385,51 @@
   width: 100%;
   border: 0;
 }
+
+.social-grid {
+  align-items: stretch;
+}
+
+.social-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  min-height: 3.75rem;
+  padding: 1rem;
+  color: var(--color-ink);
+  font-weight: 800;
+  text-decoration: none;
+  line-height: 1.25;
+}
+
+.social-link:hover,
+.social-link:focus-visible {
+  color: var(--color-primary);
+}
+
+.social-icon {
+  flex: 0 0 auto;
+  width: 1.45rem;
+  height: 1.45rem;
+  color: var(--color-primary);
+}
+
+.social-icon path,
+.social-icon rect,
+.social-icon circle {
+  fill: currentColor;
+}
+
+.social-icon circle + circle {
+  fill: var(--color-white);
+}
+
+.social-link span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
