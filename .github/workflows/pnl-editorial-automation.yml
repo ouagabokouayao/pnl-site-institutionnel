@@ -1,0 +1,38 @@
+name: PNL Editorial Automation
+
+on:
+  workflow_dispatch:
+
+jobs:
+  editorial-drafts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Validate JSON files
+        run: |
+          python -m json.tool assets/data/actualites-pnl.json > /dev/null
+          python -m json.tool assets/data/evenements-pnl.json > /dev/null
+          python -m json.tool assets/data/veille-littorale-pnl.json > /dev/null
+          python -m json.tool assets/data/journees-2026-pnl.json > /dev/null
+          python -m json.tool automation/config/pnl-editorial-config.json > /dev/null
+          python -m json.tool automation/config/sources-veille-pnl.json > /dev/null
+      - name: Generate editorial drafts
+        run: |
+          python automation/scripts/generate_articles_from_journees.py
+          python automation/scripts/generate_social_posts.py
+          python automation/scripts/generate_newsletter_draft.py
+          python automation/scripts/collect_veille_sources.py
+      - name: Write local automation report
+        run: |
+          mkdir -p automation/logs
+          {
+            echo "# Rapport automatisation éditoriale PNL"
+            echo
+            echo "Workflow manuel exécuté sans publication automatique."
+            echo "Aucun push automatique vers main n’est configuré."
+          } > automation/logs/rapport-workflow-manuel.md

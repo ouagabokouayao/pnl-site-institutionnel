@@ -1,0 +1,17 @@
+{
+  "reseau": "Facebook",
+  "date": "2026-03-03",
+  "titre": "Journée mondiale de la vie sauvage",
+  "texte_court": "Protéger la vie sauvage, c'est défendre l'équilibre du littoral.",
+  "texte_long": "La biodiversité littorale n'est pas un décor : elle est un équilibre vivant à préserver avec responsabilité.",
+  "hashtags": [
+    "#ProtégeonsNotreLittoral",
+    "#Littoral",
+    "#Environnement"
+  ],
+  "image": "assets/img/journees-2026/pnl-journee-2026-vie-sauvage.webp",
+  "lien_site": "https://protegeonsnotrelittoral.org/programme-lagunes-mangroves-biodiversite.html",
+  "statut": "brouillon",
+  "validation": "requise",
+  "publication_automatique": false
+}

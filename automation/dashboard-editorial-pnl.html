@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tableau de bord éditorial PNL</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; background: #f7faf9; color: #12343b; }
+    main { max-width: 1100px; margin: 0 auto; }
+    section { background: #fff; border: 1px solid #d9e5e2; border-radius: 12px; margin: 1rem 0; padding: 1rem; }
+    h1, h2 { color: #064a56; }
+    .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+    article { border-left: 4px solid #1f7a8c; padding: 0.75rem; background: #f7faf9; }
+    small { color: #9a4d3d; font-weight: 700; text-transform: uppercase; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Tableau de bord éditorial PNL</h1>
+    <p>Page locale de suivi. Elle n’est pas ajoutée à la navigation publique.</p>
+    <section>
+      <h2>Journées 2026</h2>
+      <div class="grid" data-dashboard-journees></div>
+    </section>
+    <section>
+      <h2>Brouillons et validation</h2>
+      <p>Articles, posts réseaux sociaux, newsletters et veille restent soumis à validation humaine avant toute publication.</p>
+      <ul>
+        <li>Articles : <code>automation/articles/</code></li>
+        <li>Posts : <code>automation/social-posts/</code></li>
+        <li>Newsletters : <code>automation/newsletters/</code></li>
+        <li>Veille : <code>automation/drafts/</code></li>
+      </ul>
+    </section>
+  </main>
+  <script>
+    fetch('../assets/data/journees-2026-pnl.json')
+      .then((response) => response.json())
+      .then((items) => {
+        const container = document.querySelector('[data-dashboard-journees]');
+        container.innerHTML = '';
+        items.forEach((item) => {
+          const card = document.createElement('article');
+          card.innerHTML = `<small>${item.date} · ${item.statut}</small><h3>${item.titre}</h3><p>${item.message_fort}</p><p>Validation : ${item.validation}</p>`;
+          container.appendChild(card);
+        });
+      });
+  </script>
+</body>
+</html>

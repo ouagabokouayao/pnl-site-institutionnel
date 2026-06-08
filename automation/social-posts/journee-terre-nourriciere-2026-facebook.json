@@ -1,0 +1,17 @@
+{
+  "reseau": "Facebook",
+  "date": "2026-04-22",
+  "titre": "Journée internationale de la Terre nourricière",
+  "texte_court": "Protéger la Terre, c'est préserver notre littoral, notre maison commune.",
+  "texte_long": "Le littoral fait partie de notre maison commune. Le protéger, c'est répondre à une responsabilité collective.",
+  "hashtags": [
+    "#ProtégeonsNotreLittoral",
+    "#Littoral",
+    "#Environnement"
+  ],
+  "image": "assets/img/journees-2026/pnl-journee-2026-terre-nourriciere.webp",
+  "lien_site": "https://protegeonsnotrelittoral.org/programmes.html",
+  "statut": "brouillon",
+  "validation": "requise",
+  "publication_automatique": false
+}

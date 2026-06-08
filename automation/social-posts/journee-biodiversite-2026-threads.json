@@ -1,0 +1,17 @@
+{
+  "reseau": "Threads",
+  "date": "2026-05-22",
+  "titre": "Journée internationale de la biodiversité",
+  "texte_court": "La biodiversité littorale est une richesse vivante à défendre sans relâche.",
+  "texte_long": "Chaque espèce, chaque habitat et chaque équilibre compte dans la préservation de nos littoraux.",
+  "hashtags": [
+    "#ProtégeonsNotreLittoral",
+    "#Littoral",
+    "#Environnement"
+  ],
+  "image": "assets/img/journees-2026/pnl-journee-2026-biodiversite.webp",
+  "lien_site": "https://protegeonsnotrelittoral.org/programme-lagunes-mangroves-biodiversite.html",
+  "statut": "brouillon",
+  "validation": "requise",
+  "publication_automatique": false
+}

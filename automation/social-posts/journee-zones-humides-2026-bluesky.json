@@ -1,0 +1,17 @@
+{
+  "reseau": "Bluesky",
+  "date": "2026-02-02",
+  "titre": "Journée mondiale des zones humides",
+  "texte_court": "Protéger les zones humides, c'est protéger les lagunes, les mangroves et la vie.",
+  "texte_long": "En cette Journée mondiale des zones humides, Protégeons notre Littoral rappelle que les lagunes, marais et mangroves sont des écosystèmes vitaux pour nos côtes et nos communautés.",
+  "hashtags": [
+    "#ProtégeonsNotreLittoral",
+    "#Littoral",
+    "#Environnement"
+  ],
+  "image": "assets/img/journees-2026/pnl-journee-2026-zones-humides.webp",
+  "lien_site": "https://protegeonsnotrelittoral.org/programme-lagunes-mangroves-biodiversite.html",
+  "statut": "brouillon",
+  "validation": "requise",
+  "publication_automatique": false
+}

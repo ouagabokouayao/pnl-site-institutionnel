@@ -1,0 +1,23 @@
+{
+  "site": "https://protegeonsnotrelittoral.org",
+  "validation_required": true,
+  "auto_publish": false,
+  "auto_send_newsletter": false,
+  "auto_post_social": false,
+  "allowed_content_types": [
+    "journee-sensibilisation",
+    "actualite-ong",
+    "veille-sourcée",
+    "article-brouillon",
+    "newsletter-brouillon",
+    "post-social-brouillon"
+  ],
+  "forbidden_content": [
+    "actualité inventée",
+    "événement ONG non confirmé",
+    "partenaire non confirmé",
+    "chiffre non vérifié",
+    "contact personnel",
+    "archive interne"
+  ]
+}

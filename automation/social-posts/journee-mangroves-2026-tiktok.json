@@ -1,0 +1,17 @@
+{
+  "reseau": "TikTok",
+  "date": "2026-07-26",
+  "titre": "Journée internationale pour la conservation de l’écosystème de mangrove",
+  "texte_court": "Les mangroves protègent nos côtes, nourrissent la vie et soutiennent nos communautés.",
+  "texte_long": "Les mangroves sont des barrières naturelles, des nurseries écologiques et des alliées précieuses pour le littoral.",
+  "hashtags": [
+    "#ProtégeonsNotreLittoral",
+    "#Littoral",
+    "#Environnement"
+  ],
+  "image": "assets/img/journees-2026/pnl-journee-2026-mangroves.webp",
+  "lien_site": "https://protegeonsnotrelittoral.org/programme-lagunes-mangroves-biodiversite.html",
+  "statut": "brouillon",
+  "validation": "requise",
+  "publication_automatique": false
+}

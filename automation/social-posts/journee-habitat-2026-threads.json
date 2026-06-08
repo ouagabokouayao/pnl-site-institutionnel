@@ -1,0 +1,17 @@
+{
+  "reseau": "Threads",
+  "date": "2026-10-05",
+  "titre": "Journée mondiale de l’habitat",
+  "texte_court": "Des communautés côtières dignes et résilientes sont au cœur d'un littoral durable.",
+  "texte_long": "La protection du littoral passe aussi par des communautés côtières reconnues, accompagnées et résilientes.",
+  "hashtags": [
+    "#ProtégeonsNotreLittoral",
+    "#Littoral",
+    "#Environnement"
+  ],
+  "image": "assets/img/journees-2026/pnl-journee-2026-habitat.webp",
+  "lien_site": "https://protegeonsnotrelittoral.org/actions-projets.html",
+  "statut": "brouillon",
+  "validation": "requise",
+  "publication_automatique": false
+}

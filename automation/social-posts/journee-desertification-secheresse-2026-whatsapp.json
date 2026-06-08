@@ -1,0 +1,17 @@
+{
+  "reseau": "WhatsApp",
+  "date": "2026-06-17",
+  "titre": "Journée mondiale de lutte contre la désertification et la sécheresse",
+  "texte_court": "Préserver les sols, l'eau et les côtes, c'est protéger l'avenir des territoires.",
+  "texte_long": "La résilience des territoires dépend aussi de la protection des sols, de l'eau et des écosystèmes côtiers.",
+  "hashtags": [
+    "#ProtégeonsNotreLittoral",
+    "#Littoral",
+    "#Environnement"
+  ],
+  "image": "assets/img/journees-2026/pnl-journee-2026-desertification-secheresse.webp",
+  "lien_site": "https://protegeonsnotrelittoral.org/programmes.html",
+  "statut": "brouillon",
+  "validation": "requise",
+  "publication_automatique": false
+}

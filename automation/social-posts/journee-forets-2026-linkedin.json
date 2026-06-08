@@ -1,0 +1,17 @@
+{
+  "reseau": "LinkedIn",
+  "date": "2026-03-21",
+  "titre": "Journée internationale des forêts",
+  "texte_court": "Forêts côtières et mangroves sont des remparts vivants à protéger.",
+  "texte_long": "Nos forêts côtières et nos mangroves protègent les terres, les eaux et les communautés. Elles doivent être défendues avec constance.",
+  "hashtags": [
+    "#ProtégeonsNotreLittoral",
+    "#Littoral",
+    "#Environnement"
+  ],
+  "image": "assets/img/journees-2026/pnl-journee-2026-forets.webp",
+  "lien_site": "https://protegeonsnotrelittoral.org/programme-lagunes-mangroves-biodiversite.html",
+  "statut": "brouillon",
+  "validation": "requise",
+  "publication_automatique": false
+}

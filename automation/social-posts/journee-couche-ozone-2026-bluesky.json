@@ -1,0 +1,17 @@
+{
+  "reseau": "Bluesky",
+  "date": "2026-09-16",
+  "titre": "Journée internationale de la protection de la couche d’ozone",
+  "texte_court": "Protéger l'atmosphère, c'est aussi protéger l'océan et le littoral.",
+  "texte_long": "Les grands équilibres environnementaux sont liés. Préserver l'atmosphère, c'est aussi agir pour les milieux côtiers et marins.",
+  "hashtags": [
+    "#ProtégeonsNotreLittoral",
+    "#Littoral",
+    "#Environnement"
+  ],
+  "image": "assets/img/journees-2026/pnl-journee-2026-couche-ozone.webp",
+  "lien_site": "https://protegeonsnotrelittoral.org/programme-jeunesse-littorale-climat.html",
+  "statut": "brouillon",
+  "validation": "requise",
+  "publication_automatique": false
+}

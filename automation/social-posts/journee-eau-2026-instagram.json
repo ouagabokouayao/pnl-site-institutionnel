@@ -1,0 +1,17 @@
+{
+  "reseau": "Instagram",
+  "date": "2026-03-22",
+  "titre": "Journée mondiale de l’eau",
+  "texte_court": "Protéger l'eau, c'est protéger la vie des lagunes, des côtes et des communautés.",
+  "texte_long": "L'eau relie les écosystèmes, les usages et les vies. La protéger, c'est agir pour un littoral durable.",
+  "hashtags": [
+    "#ProtégeonsNotreLittoral",
+    "#Littoral",
+    "#Environnement"
+  ],
+  "image": "assets/img/journees-2026/pnl-journee-2026-eau.webp",
+  "lien_site": "https://protegeonsnotrelittoral.org/fiche-ressource-lagunes.html",
+  "statut": "brouillon",
+  "validation": "requise",
+  "publication_automatique": false
+}
