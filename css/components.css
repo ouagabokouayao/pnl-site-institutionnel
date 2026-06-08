@@ -376,6 +376,17 @@
   object-fit: cover;
 }
 
+.content-visual-credit {
+  margin: 2rem 0;
+}
+
+.content-visual-credit figcaption {
+  background: #f8fafc;
+  color: #6b7280;
+  font-size: 0.8rem;
+  padding: 0.6rem 0.75rem;
+}
+
 .newsletter-embed {
   margin-top: 1.25rem;
 }
