@@ -6,8 +6,6 @@
   <title>Médiathèque - Protégeons notre Littoral</title>
   <meta name="description" content="Médiathèque publique de l'ONG Protégeons notre Littoral : photos validées, visuels institutionnels, supports publics et archives autorisées." />
   <link rel="canonical" href="https://protegeonsnotrelittoral.org/mediatheque.html" />
-  <meta property="og:title" content="Médiathèque - Protégeons notre Littoral" />
-  <meta property="og:description" content="Un espace destiné aux contenus visuels et médias validés, non sensibles et autorisés pour diffusion publique." />
   <link rel="icon" href="assets/img/identity/favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/identity/pnl-favicon-32.png" />
   <link rel="icon" type="image/png" sizes="48x48" href="assets/img/identity/pnl-favicon-48.png" />
@@ -18,8 +16,25 @@
   <link rel="stylesheet" href="css/layout.css" />
   <link rel="stylesheet" href="css/components.css" />
   <link rel="stylesheet" href="css/pages.css" />
+  <!-- Préparation terrain PNL — Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Protégeons notre Littoral">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:url" content="https://protegeonsnotrelittoral.org/mediatheque.html">
+  <meta property="og:title" content="Médiathèque — Protégeons notre Littoral">
+  <meta property="og:description" content="Médiathèque publique de l&#x27;ONG Protégeons notre Littoral : photos validées, visuels institutionnels, supports publics et archives autorisées.">
+  <meta property="og:image" content="https://protegeonsnotrelittoral.org/assets/img/site-visuels-final/pnl-visuel-ressources.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="750">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@ONG_OPL">
+  <meta name="twitter:title" content="Médiathèque — Protégeons notre Littoral">
+  <meta name="twitter:description" content="Médiathèque publique de l&#x27;ONG Protégeons notre Littoral : photos validées, visuels institutionnels, supports publics et archives autorisées.">
+  <meta name="twitter:image" content="https://protegeonsnotrelittoral.org/assets/img/site-visuels-final/pnl-visuel-ressources.webp">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Aller au contenu principal</a>
   <!-- MàJ réseaux sociaux + Google Translate juin 2026 -->
   <div id="google_translate_element" aria-label="Traduction automatique"></div>
   <script>
@@ -38,10 +53,10 @@
     <div class="container header-inner">
       <a class="site-logo" href="index.html"><img src="assets/img/identity/pnl-logo-header-desktop.png" alt="Logo de Protégeons notre Littoral" /><span>Protégeons notre Littoral</span></a>
       <button class="menu-toggle" type="button" aria-label="Ouvrir le menu">Menu</button>
-      <nav class="site-nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="a-propos.html">À propos</a><a href="programmes.html">Programmes</a><a href="observatoire.html">Observatoire</a><a href="ressources.html">Ressources</a><a href="adherer-soutenir.html">Soutenir</a><a href="contact.html">Contact</a></nav>
+      <nav class="site-nav" role="navigation" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="a-propos.html">À propos</a><a href="programmes.html">Programmes</a><a href="observatoire.html">Observatoire</a><a href="ressources.html">Ressources</a><a href="adherer-soutenir.html">Soutenir</a><a href="contact.html">Contact</a></nav>
     </div>
   </header>
-  <main>
+  <main id="main-content">
     <section class="page-hero"><div class="container hero-grid"><div><p class="eyebrow">Médiathèque</p><h1>Médiathèque publique</h1><p class="hero-lead">Un espace destiné aux photos validées, visuels institutionnels, supports publics, affiches futures, documents médias et archives publiques sélectionnées.</p></div><aside class="visual-panel visual-contact" data-label="Médias publics" aria-label="Repère visuel sur la médiathèque"></aside></div></section>
     <section class="section"><div class="container content-grid"><article><p class="section-kicker">Cadre de diffusion</p><h2>Publier uniquement les contenus autorisés</h2><p>La médiathèque présente une galerie compacte de visuels publics validés, supports institutionnels et ressources médias utiles à la compréhension de la mission de l'ONG.</p><p>Les supports sont ajoutés lorsque leur source, leur usage et leurs conditions de diffusion sont confirmés.</p></article></div></section>
     <section class="section section-muted"><div class="container"><h2>Catégories prévues</h2><div class="card-grid three-cols"><article class="info-card"><h3>Photos validées</h3><p>Images d'actions, lieux ou supports publiées avec autorisation et respect du droit à l'image.</p></article><article class="info-card"><h3>Visuels institutionnels</h3><p>Identité de l'ONG, visuels publics et supports de présentation validés.</p></article><article class="info-card"><h3>Supports publics</h3><p>Affiches futures, fiches et documents médias destinés à une diffusion publique.</p></article><article class="info-card"><h3>Archives sélectionnées</h3><p>Éléments de mémoire autorisés et reformulés pour éviter toute exposition de données sensibles.</p></article><article class="info-card"><h3>Kit média</h3><p>Éléments de présentation et règles d'usage du logo pour les médias et partenaires potentiels.</p></article><article class="info-card"><h3>Publication progressive</h3><p>Chaque ajout doit être relu, validé et compatible avec la mission de l'ONG.</p></article></div></div></section>
@@ -100,5 +115,9 @@
   </div>
   </footer>
   <script src="js/navigation.js"></script><script src="js/main.js"></script><script src="js/veille-pnl.js"></script>
+  <!-- Préparation terrain PNL — Analytics GA4 inactif sans identifiant officiel -->
+  <script defer src="/js/pnl-analytics.js"></script>
+  <!-- Préparation terrain PNL — WhatsApp désactivé sans numéro officiel -->
+  <script defer src="/js/pnl-whatsapp.js"></script>
 </body>
 </html>

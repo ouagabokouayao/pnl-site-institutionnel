@@ -523,6 +523,83 @@ body {
   filter: grayscale(20%);
 }
 
+/* Préparation terrain PNL — Lien d'évitement */
+.skip-link {
+  position: absolute;
+  top: -48px;
+  left: 0;
+  background: #1a3a5c;
+  color: #ffffff;
+  padding: 0.6rem 0.8rem;
+  text-decoration: none;
+  font-size: 0.85rem;
+  z-index: 10000;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Préparation terrain PNL — Partage social */
+.pnl-share {
+  margin: 1.5rem auto;
+  padding: 1rem 0;
+  border-top: 1px solid #e8edf0;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  width: calc(100% - 2rem);
+  max-width: var(--container-width);
+}
+
+.pnl-share span {
+  font-size: 0.85rem;
+  color: #777;
+  font-weight: 600;
+}
+
+.pnl-share a {
+  font-size: 0.85rem;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid #d9e1e7;
+  border-radius: 999px;
+  text-decoration: none;
+  color: #1a3a5c;
+  background: #ffffff;
+}
+
+.pnl-share a:hover,
+.pnl-share a:focus {
+  border-color: #1a5276;
+  color: #0f3554;
+}
+
+/* Préparation terrain PNL — WhatsApp flottant */
+.pnl-whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9998;
+  background: #25D366;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.pnl-whatsapp-float:hover,
+.pnl-whatsapp-float:focus {
+  transform: translateY(-1px);
+}
+
 .media-list .data-card {
   align-content: start;
 }

@@ -6,20 +6,63 @@
   <title>Protégeons notre Littoral — Site institutionnel</title>
   <meta name="description" content="Site institutionnel de l’ONG Protégeons notre Littoral : protection, valorisation et gouvernance durable des espaces littoraux, marins et lagunaires." />
   <link rel="canonical" href="https://protegeonsnotrelittoral.org/" />
-  <meta property="og:title" content="Protégeons notre Littoral - Site institutionnel" />
-  <meta property="og:description" content="Site institutionnel de l’ONG Protégeons notre Littoral : protection, valorisation et gouvernance durable des espaces littoraux, marins et lagunaires." />
   <link rel="icon" href="assets/img/identity/favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/identity/pnl-favicon-32.png" />
   <link rel="icon" type="image/png" sizes="48x48" href="assets/img/identity/pnl-favicon-48.png" />
   <link rel="apple-touch-icon" href="assets/img/identity/pnl-apple-touch-icon.png" />
+  <link rel="preload" as="image" href="/assets/img/site-visuels-final/pnl-visuel-accueil.webp" type="image/webp" />
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/variables.css" />
   <link rel="stylesheet" href="css/base.css" />
   <link rel="stylesheet" href="css/layout.css" />
   <link rel="stylesheet" href="css/components.css" />
   <link rel="stylesheet" href="css/pages.css" />
+  <!-- Préparation terrain PNL — Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Protégeons notre Littoral">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:url" content="https://protegeonsnotrelittoral.org/index.html">
+  <meta property="og:title" content="Protégeons notre Littoral — Site institutionnel">
+  <meta property="og:description" content="Site institutionnel de l’ONG Protégeons notre Littoral : protection, valorisation et gouvernance durable des espaces littoraux, marins et lagunaires.">
+  <meta property="og:image" content="https://protegeonsnotrelittoral.org/assets/img/site-visuels-final/pnl-visuel-ressources.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="750">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@ONG_OPL">
+  <meta name="twitter:title" content="Protégeons notre Littoral — Site institutionnel">
+  <meta name="twitter:description" content="Site institutionnel de l’ONG Protégeons notre Littoral : protection, valorisation et gouvernance durable des espaces littoraux, marins et lagunaires.">
+  <meta name="twitter:image" content="https://protegeonsnotrelittoral.org/assets/img/site-visuels-final/pnl-visuel-ressources.webp">
+  <!-- Schema.org JSON-LD PNL -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NGO",
+    "name": "Protégeons notre Littoral",
+    "alternateName": "PNL",
+    "url": "https://protegeonsnotrelittoral.org",
+    "logo": "https://protegeonsnotrelittoral.org/assets/img/identity/pnl-logo-header-desktop.png",
+    "description": "ONG ivoirienne engagée pour la protection, la valorisation et la gouvernance durable des espaces littoraux, marins et lagunaires.",
+    "foundingDate": "2016",
+    "email": "protectionlittoralci@gmail.com",
+    "areaServed": {
+      "@type": "Place",
+      "name": "Côte d'Ivoire"
+    },
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=100064530888959",
+      "https://www.instagram.com/protegeons_notre_littoral/",
+      "https://www.youtube.com/@ongprotegeonsnotrelittoral627",
+      "https://www.tiktok.com/@protegeons.notrelittoral",
+      "https://x.com/ONG_OPL",
+      "https://www.linkedin.com/in/ong-prot%C3%A9geons-notre-littoral/",
+      "https://bsky.app/profile/oplittoral.bsky.social"
+    ]
+  }
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Aller au contenu principal</a>
   <!-- MàJ réseaux sociaux + Google Translate juin 2026 -->
   <div id="google_translate_element" aria-label="Traduction automatique"></div>
   <script>
@@ -41,11 +84,11 @@
         <span>Protégeons notre Littoral</span>
       </a>
       <button class="menu-toggle" type="button" aria-label="Ouvrir le menu">Menu</button>
-      <nav class="site-nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="a-propos.html">À propos</a><a href="programmes.html">Programmes</a><a href="observatoire.html">Observatoire</a><a href="ressources.html">Ressources</a><a href="adherer-soutenir.html">Soutenir</a><a href="contact.html">Contact</a></nav>
+      <nav class="site-nav" role="navigation" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="a-propos.html">À propos</a><a href="programmes.html">Programmes</a><a href="observatoire.html">Observatoire</a><a href="ressources.html">Ressources</a><a href="adherer-soutenir.html">Soutenir</a><a href="contact.html">Contact</a></nav>
     </div>
   </header>
 
-  <main>
+  <main id="main-content">
     <section class="page-hero">
       <div class="container hero-grid">
         <div>
@@ -309,5 +352,9 @@
   <script src="js/navigation.js"></script>
   <script src="js/main.js"></script>
   <script src="js/veille-pnl.js"></script>
+  <!-- Préparation terrain PNL — Analytics GA4 inactif sans identifiant officiel -->
+  <script defer src="/js/pnl-analytics.js"></script>
+  <!-- Préparation terrain PNL — WhatsApp désactivé sans numéro officiel -->
+  <script defer src="/js/pnl-whatsapp.js"></script>
 </body>
 </html>

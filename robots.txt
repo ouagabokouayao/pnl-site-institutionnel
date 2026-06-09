@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
 
+Disallow: /automation/
+Disallow: /docs/
+Disallow: /private/
+Disallow: /_sources-a-conserver/
+Disallow: /_sources-a-analyser/
+
 Sitemap: https://protegeonsnotrelittoral.org/sitemap.xml
