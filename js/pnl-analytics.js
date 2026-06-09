@@ -1,10 +1,15 @@
-/* Préparation terrain PNL — GA4 non actif sans identifiant officiel */
+/* Google Analytics 4 — PNL juin 2026 */
 (function () {
-  var GA4_ID = "";
+  var GA4_ID = "G-MQ2STNC5VN";
 
   if (!GA4_ID || !/^G-[A-Z0-9]+$/.test(GA4_ID)) {
     return;
   }
+
+  if (window.__PNL_GA4_LOADED__) {
+    return;
+  }
+  window.__PNL_GA4_LOADED__ = true;
 
   var script = document.createElement("script");
   script.async = true;
@@ -16,7 +21,5 @@
   window.gtag = gtag;
 
   gtag("js", new Date());
-  gtag("config", GA4_ID, {
-    anonymize_ip: true
-  });
+  gtag("config", GA4_ID);
 })();
