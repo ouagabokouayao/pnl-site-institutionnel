@@ -229,11 +229,11 @@
 .visual-actions { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-actions.webp"); }
 .visual-news { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.14), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-actions.webp"); }
 .visual-resources { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-ressources.webp"); }
-.visual-partners { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-partenaires.webp"); }
+.visual-partners { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-ressources.webp"); }
 .visual-support { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-soutenir.webp"); }
 .visual-contact { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-contact.webp"); }
 .visual-legal { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.14), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-gouvernance.webp"); }
-.visual-governance { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-gouvernance.webp"); }
+.visual-governance { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-ressources.webp"); }
 .visual-membership { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-devenir-membre.webp"); }
 .visual-volunteer { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-devenir-benevole.webp"); }
 .visual-partnership { background-image: linear-gradient(135deg, rgba(6, 74, 86, 0.12), rgba(31, 122, 140, 0.04)), url("../assets/img/site-visuels-final/pnl-visuel-proposer-partenariat.webp"); }
@@ -475,18 +475,18 @@
   overflow-wrap: anywhere;
 }
 
-/* MàJ réseaux sociaux + Google Translate juin 2026 */
+/* Correction audit juin 2026 */
 #google_translate_element {
   position: fixed;
-  top: 82px;
+  top: 12px;
   right: 12px;
-  z-index: 9999;
+  z-index: 1000;
   background: #ffffff;
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 4px 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  font-size: 13px;
-  max-width: 220px;
+  font-size: 12px;
+  max-width: 160px;
 }
 
 .goog-te-banner-frame {
@@ -499,11 +499,12 @@ body {
 
 @media (max-width: 768px) {
   #google_translate_element {
-    top: auto;
-    right: 12px;
-    bottom: 12px;
-    max-width: 180px;
-    font-size: 12px;
+    top: 8px;
+    right: 8px;
+    bottom: auto;
+    max-width: 130px;
+    font-size: 11px;
+    padding: 3px 6px;
   }
 }
 
@@ -512,8 +513,14 @@ body {
   border-radius: calc(var(--radius) * 0.75);
   display: block;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
+  background: #f8fafc;
   width: 100%;
+}
+
+.past-events .data-card {
+  opacity: 0.7;
+  filter: grayscale(20%);
 }
 
 .media-list .data-card {

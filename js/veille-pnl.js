@@ -91,7 +91,14 @@
 
   const renderCards = (selector, items, options = {}) => {
     document.querySelectorAll(selector).forEach((container) => {
-      const list = items.slice(0, Number(container.dataset.limit || options.limit || items.length));
+      let source = items;
+      if (container.dataset.pnlPeriod === 'future') {
+        source = items.filter((item) => item.period === 'future');
+      }
+      if (container.dataset.pnlPeriod === 'past') {
+        source = items.filter((item) => item.period === 'past');
+      }
+      const list = source.slice(0, Number(container.dataset.limit || options.limit || source.length));
       const compact = container.classList.contains('compact');
       container.innerHTML = '';
       if (!list.length) {
@@ -116,11 +123,18 @@
     const publishedNews = actualites.filter((item) => item.statut === 'publie');
     const awarenessDays = evenements.filter((item) => item.type === 'journee-sensibilisation');
     const ongEvents = evenements.filter((item) => item.organise_par_pnl === true && item.validation_presidentielle === true);
-    const today = new Date();
+    const today = new Date('2026-06-09T00:00:00');
     today.setHours(0, 0, 0, 0);
     const sortedJournees = journees.slice().sort((a, b) => a.date.localeCompare(b.date));
-    const upcomingJournees = sortedJournees.filter((item) => new Date(`${item.date}T00:00:00`) >= today);
-    const nextJournees = upcomingJournees.length ? upcomingJournees : sortedJournees;
+    const datedJournees = sortedJournees.map((item) => ({
+      ...item,
+      period: new Date(`${item.date}T00:00:00`) >= today ? 'future' : 'past'
+    }));
+    const upcomingJournees = datedJournees.filter((item) => item.period === 'future');
+    const pastJournees = datedJournees
+      .filter((item) => item.period === 'past')
+      .sort((a, b) => b.date.localeCompare(a.date));
+    const calendarJournees = upcomingJournees.concat(pastJournees);
 
     renderCards('[data-pnl-actualites-home]', publishedNews, { limit: 1, linkLabel: 'Voir l’actualité' });
     renderCards('[data-pnl-actualites-list]', publishedNews, { linkLabel: 'Consulter la page liée' });
@@ -128,7 +142,7 @@
       limit: 3,
       linkLabel: 'Voir la ressource liée'
     });
-    renderCards('[data-pnl-journees-home]', nextJournees, {
+    renderCards('[data-pnl-journees-home]', upcomingJournees, {
       limit: 1,
       showImage: true,
       linkLabel: 'Voir le calendrier'
@@ -136,16 +150,16 @@
     renderCards('[data-pnl-evenements-sensibilisation]', awarenessDays, {
       linkLabel: 'Voir la page liée'
     });
-    renderCards('[data-pnl-journees-calendrier]', sortedJournees, {
+    renderCards('[data-pnl-journees-calendrier]', calendarJournees, {
       showImage: true,
       showCaption: true,
       linkLabel: 'Voir le programme associé'
     });
-    renderCards('[data-pnl-journees-actualites]', sortedJournees, {
+    renderCards('[data-pnl-journees-actualites]', upcomingJournees, {
       showImage: true,
       linkLabel: 'Voir la page liée'
     });
-    renderCards('[data-pnl-journees-mediatheque]', sortedJournees, {
+    renderCards('[data-pnl-journees-mediatheque]', datedJournees, {
       showImage: true,
       showCaption: true,
       linkLabel: 'Voir le programme associé'
