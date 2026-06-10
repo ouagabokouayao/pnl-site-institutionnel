@@ -1,12 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://protegeonsnotrelittoral.org/404.html</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://protegeonsnotrelittoral.org/a-propos.html</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>monthly</changefreq>
@@ -115,7 +109,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://protegeonsnotrelittoral.org/index.html</loc>
+    <loc>https://protegeonsnotrelittoral.org/</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
