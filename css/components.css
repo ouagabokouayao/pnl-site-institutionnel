@@ -603,3 +603,11 @@ body {
 .media-list .data-card {
   align-content: start;
 }
+
+@media (max-width: 920px) {
+  .two-cols,
+  .three-cols,
+  .four-cols {
+    grid-template-columns: 1fr;
+  }
+}
