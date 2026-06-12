@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ressource-erosion-cotiere",
+    "titre": "Comprendre l’érosion côtière",
+    "page": "ressource-erosion-cotiere.html",
+    "theme": "érosion côtière",
+    "programme_lie": "Observatoire Protégeons notre Littoral",
+    "description": "Repères simples pour comprendre l’érosion côtière, ses causes générales, ses effets et l’importance de l’observation citoyenne."
+  },
+  {
+    "id": "ressource-dechets-littoraux",
+    "titre": "Comprendre les déchets littoraux",
+    "page": "ressource-dechets-littoraux.html",
+    "theme": "déchets littoraux",
+    "programme_lie": "Zéro Déchet Littoral",
+    "description": "Repères simples pour comprendre les déchets littoraux, leurs impacts et les gestes de prévention."
+  },
+  {
+    "id": "ressource-lagunes-mangroves",
+    "titre": "Comprendre les lagunes et les mangroves",
+    "page": "ressource-lagunes-mangroves.html",
+    "theme": "lagunes et mangroves",
+    "programme_lie": "Lagunes, Mangroves & Biodiversité",
+    "description": "Repères simples sur les lagunes, les mangroves, la biodiversité et la protection des territoires côtiers."
+  },
+  {
+    "id": "ressource-pollution-marine",
+    "titre": "Comprendre la pollution marine",
+    "page": "ressource-pollution-marine.html",
+    "theme": "pollution marine",
+    "programme_lie": "Observatoire / Zéro Déchet Littoral",
+    "description": "Repères simples pour comprendre les pollutions marines visibles et invisibles et leurs impacts."
+  }
+]
