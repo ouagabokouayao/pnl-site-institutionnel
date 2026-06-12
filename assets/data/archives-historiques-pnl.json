@@ -1,0 +1,47 @@
+[
+  {
+    "id": "archive-historique-001",
+    "titre": "Repère visuel historique de Protégeons notre Littoral",
+    "categorie": "logo_historique",
+    "fichier": "assets/img/archives-pnl/pnl-logo-historique-001.webp",
+    "legende": "Repère visuel historique de Protégeons notre Littoral.",
+    "source": "Archive PNL",
+    "usage": "histoire"
+  },
+  {
+    "id": "archive-historique-002",
+    "titre": "Support historique de présentation PNL",
+    "categorie": "support_historique_nettoye",
+    "fichier": "assets/img/archives-pnl/supports-historiques/pnl-support-historique-001.webp",
+    "legende": "Ancien support de présentation recadré, sans zone de contact visible.",
+    "source": "Archive PNL",
+    "usage": "identité"
+  },
+  {
+    "id": "archive-historique-003",
+    "titre": "Repères historiques de sensibilisation",
+    "categorie": "support_historique_nettoye",
+    "fichier": "assets/img/archives-pnl/supports-historiques/pnl-support-historique-002.webp",
+    "legende": "Support historique autour des messages éduquer, former et sensibiliser.",
+    "source": "Archive PNL",
+    "usage": "sensibilisation"
+  },
+  {
+    "id": "archive-historique-004",
+    "titre": "Notre Littoral, Notre Richesse",
+    "categorie": "support_historique_nettoye",
+    "fichier": "assets/img/archives-pnl/supports-historiques/pnl-support-historique-003.webp",
+    "legende": "Ancien support institutionnel recadré autour du slogan historique de l’ONG.",
+    "source": "Archive PNL",
+    "usage": "mémoire"
+  },
+  {
+    "id": "archive-historique-005",
+    "titre": "Ancien support de sensibilisation littorale",
+    "categorie": "support_historique_nettoye",
+    "fichier": "assets/img/archives-pnl/supports-historiques/pnl-support-historique-004.webp",
+    "legende": "Extrait recadré d’un ancien support PNL, sans coordonnées ni zone administrative visible.",
+    "source": "Archive PNL",
+    "usage": "histoire"
+  }
+]
