@@ -37,12 +37,13 @@
     "categorie": "ville ou territoire",
     "programme_lie": "Mémoire du Littoral / Observatoire",
     "description_publique": "Repère territorial associé à Grand-Bassam. Il aide à relier la mémoire institutionnelle de l’ONG aux espaces côtiers, lagunaires ou urbains documentés.",
-    "image": "",
+    "image": "assets/img/activites-pnl/pnl-activite-terrain-003.webp",
     "source": "archive PNL",
     "niveau_publication": "synthèse publique sans document brut",
     "page_cible": "programme-observatoire.html",
     "presence_photos": "oui",
-    "presence_supports": "non"
+    "presence_supports": "non",
+    "alt": "Plage de Grand-Bassam et dynamique du trait de côte — Archive PNL"
   },
   {
     "id": "terrain-004",
@@ -52,12 +53,13 @@
     "categorie": "visite de terrain",
     "programme_lie": "Mémoire du Littoral / Observatoire",
     "description_publique": "Repère de visite lié à Grand-Lahou, Lahou-Kpanda. Il contribue à documenter les territoires littoraux, les observations de terrain et la mémoire publique de l’ONG.",
-    "image": "",
+    "image": "assets/img/activites-pnl/pnl-activite-terrain-006.webp",
     "source": "archive PNL",
     "niveau_publication": "synthèse publique sans document brut",
     "page_cible": "programme-observatoire.html",
     "presence_photos": "oui",
-    "presence_supports": "oui"
+    "presence_supports": "oui",
+    "alt": "Plan d’eau lagunaire et végétation côtière à Grand-Lahou — Archive PNL"
   },
   {
     "id": "terrain-005",
@@ -82,12 +84,13 @@
     "categorie": "ville ou territoire",
     "programme_lie": "Mémoire du Littoral / Observatoire",
     "description_publique": "Repère territorial associé à Grand-Bassam. Il aide à relier la mémoire institutionnelle de l’ONG aux espaces côtiers, lagunaires ou urbains documentés.",
-    "image": "",
+    "image": "assets/img/activites-pnl/pnl-activite-terrain-001.webp",
     "source": "archive PNL",
     "niveau_publication": "synthèse publique sans document brut",
     "page_cible": "programme-observatoire.html",
     "presence_photos": "oui",
-    "presence_supports": "non"
+    "presence_supports": "non",
+    "alt": "Déchets plastiques et matières échouées observés sur une plage de Grand-Bassam — Archive PNL"
   },
   {
     "id": "terrain-007",
@@ -112,12 +115,13 @@
     "categorie": "ville ou territoire",
     "programme_lie": "Mémoire du Littoral / Observatoire",
     "description_publique": "Repère territorial associé à Grand-Bassam. Il aide à relier la mémoire institutionnelle de l’ONG aux espaces côtiers, lagunaires ou urbains documentés.",
-    "image": "",
+    "image": "assets/img/activites-pnl/pnl-activite-terrain-004.webp",
     "source": "archive PNL",
     "niveau_publication": "synthèse publique sans document brut",
     "page_cible": "programme-observatoire.html",
     "presence_photos": "oui",
-    "presence_supports": "non"
+    "presence_supports": "non",
+    "alt": "Algues échouées et sable littoral observés à Grand-Bassam — Archive PNL"
   },
   {
     "id": "terrain-009",
@@ -127,12 +131,13 @@
     "categorie": "visite de terrain",
     "programme_lie": "Mémoire du Littoral / Observatoire",
     "description_publique": "Repère de visite lié à Grand-Lahou, Lahou-Kpanda. Il contribue à documenter les territoires littoraux, les observations de terrain et la mémoire publique de l’ONG.",
-    "image": "",
+    "image": "assets/img/activites-pnl/pnl-activite-terrain-006.webp",
     "source": "archive PNL",
     "niveau_publication": "synthèse publique sans document brut",
     "page_cible": "programme-observatoire.html",
     "presence_photos": "oui",
-    "presence_supports": "non"
+    "presence_supports": "non",
+    "alt": "Plan d’eau lagunaire et végétation côtière à Grand-Lahou — Archive PNL"
   },
   {
     "id": "terrain-010",
@@ -262,12 +267,13 @@
     "categorie": "ville ou territoire",
     "programme_lie": "Mémoire du Littoral / Observatoire",
     "description_publique": "Repère territorial associé à Grand-Lahou, Lahou-Kpanda. Il aide à relier la mémoire institutionnelle de l’ONG aux espaces côtiers, lagunaires ou urbains documentés.",
-    "image": "",
+    "image": "assets/img/activites-pnl/pnl-activite-terrain-008.webp",
     "source": "archive PNL",
     "niveau_publication": "synthèse publique sans document brut",
     "page_cible": "programme-observatoire.html",
     "presence_photos": "oui",
-    "presence_supports": "non"
+    "presence_supports": "non",
+    "alt": "Cercle de sensibilisation observé à distance sur le littoral — Archive PNL"
   },
   {
     "id": "terrain-019",
@@ -352,12 +358,13 @@
     "categorie": "visite de terrain",
     "programme_lie": "Mémoire du Littoral / Observatoire",
     "description_publique": "Repère de visite lié à Territoire littoral documenté. Il contribue à documenter les territoires littoraux, les observations de terrain et la mémoire publique de l’ONG.",
-    "image": "",
+    "image": "assets/img/activites-pnl/pnl-activite-terrain-005.webp",
     "source": "archive PNL",
     "niveau_publication": "synthèse publique sans document brut",
     "page_cible": "programme-observatoire.html",
     "presence_photos": "oui",
-    "presence_supports": "non"
+    "presence_supports": "non",
+    "alt": "Pollution plastique visible sur une plage de Port-Bouët — Archive PNL"
   },
   {
     "id": "terrain-025",
@@ -442,11 +449,12 @@
     "categorie": "visite de terrain",
     "programme_lie": "Mémoire du Littoral / Observatoire",
     "description_publique": "Repère de visite lié à Territoire littoral documenté. Il contribue à documenter les territoires littoraux, les observations de terrain et la mémoire publique de l’ONG.",
-    "image": "",
+    "image": "assets/img/activites-pnl/pnl-activite-terrain-007.webp",
     "source": "archive PNL",
     "niveau_publication": "synthèse publique sans document brut",
     "page_cible": "programme-observatoire.html",
     "presence_photos": "oui",
-    "presence_supports": "non"
+    "presence_supports": "non",
+    "alt": "Rassemblement de sensibilisation littorale à distance sur le littoral — Archive PNL"
   }
 ]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "terrain-image-001",
+    "titre": "Déchets littoraux observés à Grand-Bassam",
+    "image": "assets/img/activites-pnl/pnl-activite-terrain-001.webp",
+    "alt": "Déchets plastiques et matières échouées observés sur une plage de Grand-Bassam — Archive PNL",
+    "lieu": "Grand-Bassam",
+    "annee": "2017",
+    "theme": "Déchets littoraux",
+    "source": "Archive PNL",
+    "page_cible": "comptes-rendus-terrain.html"
+  },
+  {
+    "id": "terrain-image-002",
+    "titre": "Accumulation de déchets sur le sable",
+    "image": "assets/img/activites-pnl/pnl-activite-terrain-002.webp",
+    "alt": "Accumulation de déchets littoraux sur le sable à Grand-Bassam — Archive PNL",
+    "lieu": "Grand-Bassam",
+    "annee": "2017",
+    "theme": "Déchets littoraux",
+    "source": "Archive PNL",
+    "page_cible": "comptes-rendus-terrain.html"
+  },
+  {
+    "id": "terrain-image-003",
+    "titre": "Plage et dynamique littorale",
+    "image": "assets/img/activites-pnl/pnl-activite-terrain-003.webp",
+    "alt": "Plage de Grand-Bassam et dynamique du trait de côte — Archive PNL",
+    "lieu": "Grand-Bassam",
+    "annee": "2017",
+    "theme": "Observation littorale",
+    "source": "Archive PNL",
+    "page_cible": "comptes-rendus-terrain.html"
+  },
+  {
+    "id": "terrain-image-004",
+    "titre": "Algues échouées et sable littoral",
+    "image": "assets/img/activites-pnl/pnl-activite-terrain-004.webp",
+    "alt": "Algues échouées et sable littoral observés à Grand-Bassam — Archive PNL",
+    "lieu": "Grand-Bassam",
+    "annee": "2017",
+    "theme": "Observation littorale",
+    "source": "Archive PNL",
+    "page_cible": "comptes-rendus-terrain.html"
+  },
+  {
+    "id": "terrain-image-005",
+    "titre": "Pollution plastique sur le littoral",
+    "image": "assets/img/activites-pnl/pnl-activite-terrain-005.webp",
+    "alt": "Pollution plastique visible sur une plage de Port-Bouët — Archive PNL",
+    "lieu": "Port-Bouët",
+    "annee": "2017",
+    "theme": "Pollution plastique",
+    "source": "Archive PNL",
+    "page_cible": "mediatheque.html"
+  },
+  {
+    "id": "terrain-image-006",
+    "titre": "Plan d’eau lagunaire à Grand-Lahou",
+    "image": "assets/img/activites-pnl/pnl-activite-terrain-006.webp",
+    "alt": "Plan d’eau lagunaire et végétation côtière à Grand-Lahou — Archive PNL",
+    "lieu": "Grand-Lahou",
+    "annee": "2017",
+    "theme": "Lagune et observation",
+    "source": "Archive PNL",
+    "page_cible": "programme-memoire-du-littoral.html"
+  },
+  {
+    "id": "terrain-image-007",
+    "titre": "Sensibilisation littorale à distance",
+    "image": "assets/img/activites-pnl/pnl-activite-terrain-007.webp",
+    "alt": "Rassemblement de sensibilisation littorale à distance sur le littoral — Archive PNL",
+    "lieu": "Littoral ivoirien",
+    "annee": "2017",
+    "theme": "Sensibilisation",
+    "source": "Archive PNL",
+    "page_cible": "activites-historiques.html"
+  },
+  {
+    "id": "terrain-image-008",
+    "titre": "Cercle de sensibilisation sur le littoral",
+    "image": "assets/img/activites-pnl/pnl-activite-terrain-008.webp",
+    "alt": "Cercle de sensibilisation observé à distance sur le littoral — Archive PNL",
+    "lieu": "Littoral ivoirien",
+    "annee": "2017",
+    "theme": "Sensibilisation",
+    "source": "Archive PNL",
+    "page_cible": "activites-historiques.html"
+  }
+]
