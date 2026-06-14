@@ -43,5 +43,77 @@
     "legende": "Extrait recadré d’un ancien support PNL, sans coordonnées ni zone administrative visible.",
     "source": "Archive PNL",
     "usage": "histoire"
+  },
+  {
+    "id": "archive-historique-lot2-001",
+    "titre": "Protection de la faune marine",
+    "categorie": "support_historique",
+    "fichier": "assets/img/archives-pnl/supports-historiques-lot2/pnl-support-historique-lot2-001.webp",
+    "legende": "Archive de sensibilisation autour de la protection de la faune marine.",
+    "source": "Archive PNL",
+    "usage": "sensibilisation"
+  },
+  {
+    "id": "archive-historique-lot2-002",
+    "titre": "Réduction des risques littoraux",
+    "categorie": "support_historique",
+    "fichier": "assets/img/archives-pnl/supports-historiques-lot2/pnl-support-historique-lot2-002.webp",
+    "legende": "Archive de sensibilisation sur la réduction des risques d’atteinte au littoral.",
+    "source": "Archive PNL",
+    "usage": "sensibilisation"
+  },
+  {
+    "id": "archive-historique-lot2-003",
+    "titre": "Pollutions marines",
+    "categorie": "support_historique",
+    "fichier": "assets/img/archives-pnl/supports-historiques-lot2/pnl-support-historique-lot2-003.webp",
+    "legende": "Archive de sensibilisation sur les pollutions marines.",
+    "source": "Archive PNL",
+    "usage": "sensibilisation"
+  },
+  {
+    "id": "archive-historique-lot2-004",
+    "titre": "Protection du littoral terrestre",
+    "categorie": "support_historique",
+    "fichier": "assets/img/archives-pnl/supports-historiques-lot2/pnl-support-historique-lot2-004.webp",
+    "legende": "Archive de sensibilisation sur la protection du littoral, de la terre au rivage.",
+    "source": "Archive PNL",
+    "usage": "sensibilisation"
+  },
+  {
+    "id": "archive-historique-lot2-005",
+    "titre": "Protection mer et terre",
+    "categorie": "support_historique",
+    "fichier": "assets/img/archives-pnl/supports-historiques-lot2/pnl-support-historique-lot2-005.webp",
+    "legende": "Archive de sensibilisation sur la protection du littoral en mer comme sur terre.",
+    "source": "Archive PNL",
+    "usage": "memoire"
+  },
+  {
+    "id": "archive-historique-lot2-006",
+    "titre": "Risques d’atteinte au littoral",
+    "categorie": "support_historique",
+    "fichier": "assets/img/archives-pnl/supports-historiques-lot2/pnl-support-historique-lot2-006.webp",
+    "legende": "Archive de sensibilisation sur les pressions et risques littoraux.",
+    "source": "Archive PNL",
+    "usage": "memoire"
+  },
+  {
+    "id": "archive-historique-lot2-007",
+    "titre": "Agir contre les pollutions marines",
+    "categorie": "support_historique",
+    "fichier": "assets/img/archives-pnl/supports-historiques-lot2/pnl-support-historique-lot2-007.webp",
+    "legende": "Archive de sensibilisation invitant à agir contre les pollutions marines.",
+    "source": "Archive PNL",
+    "usage": "sensibilisation"
+  },
+  {
+    "id": "archive-historique-lot2-008",
+    "titre": "Protection du littoral en mer et sur terre",
+    "categorie": "support_historique",
+    "fichier": "assets/img/archives-pnl/supports-historiques-lot2/pnl-support-historique-lot2-008.webp",
+    "legende": "Archive de sensibilisation autour de la protection des espaces littoraux.",
+    "source": "Archive PNL",
+    "usage": "identité"
   }
 ]
