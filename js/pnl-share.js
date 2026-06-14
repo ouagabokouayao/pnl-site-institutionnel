@@ -1,5 +1,6 @@
 /* Préparation terrain PNL — Partage social */
 (function () {
+  var WHATSAPP_URL = "https://wa.me/?text=Bonjour%20Prot%C3%A9geons%20notre%20Littoral";
   document.querySelectorAll(".pnl-share").forEach(function (block) {
     var url = block.getAttribute("data-share-url") || window.location.href;
     var title = block.getAttribute("data-share-title") || document.title;
@@ -7,8 +8,8 @@
       if (link.href.indexOf("twitter.com/intent/tweet") !== -1 && link.href.indexOf("text=") === -1) {
         link.href += "&text=" + encodeURIComponent(title);
       }
-      if (link.href.indexOf("wa.me/?text=") !== -1 && link.href.endsWith("text=")) {
-        link.href += encodeURIComponent(url);
+      if (link.href.indexOf("wa.me/?text=") !== -1) {
+        link.href = WHATSAPP_URL;
       }
     });
   });

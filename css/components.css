@@ -427,7 +427,8 @@
   color: var(--color-coral);
 }
 
-.social-grid {
+.social-grid,
+.pnl-grille-reseaux {
   align-items: stretch;
 }
 
@@ -609,5 +610,18 @@ body {
   .three-cols,
   .four-cols {
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .pnl-grille-reseaux {
+    grid-template-columns: 1fr !important;
+  }
+
+  .pnl-whatsapp-float {
+    right: 14px;
+    bottom: 14px;
+    width: 44px;
+    height: 44px;
+    font-size: 20px;
   }
 }
