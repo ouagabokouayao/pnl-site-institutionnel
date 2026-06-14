@@ -122,3 +122,203 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+/* Navigation structurée PNL — juin 2026 */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.site-header {
+  z-index: 100;
+}
+
+.site-nav {
+  overflow: visible;
+}
+
+.nav-item {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.site-nav .nav-link-main {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.2rem;
+  border-radius: 999px 0 0 999px;
+  padding: 0.42rem 0.56rem 0.42rem 0.7rem;
+  white-space: nowrap;
+}
+
+.nav-submenu-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.85rem;
+  min-height: 2.2rem;
+  border: 0;
+  border-left: 1px solid rgba(17, 89, 89, 0.12);
+  border-radius: 0 999px 999px 0;
+  background: transparent;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.nav-submenu-toggle::after {
+  content: "";
+  width: 0.42rem;
+  height: 0.42rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg) translateY(-1px);
+  transition: transform 0.18s ease;
+}
+
+.nav-item:hover .nav-link-main,
+.nav-item:focus-within .nav-link-main,
+.nav-item.is-open .nav-link-main,
+.nav-item.is-current .nav-link-main {
+  background: var(--color-light);
+  color: var(--color-primary);
+}
+
+.nav-item:hover .nav-submenu-toggle,
+.nav-item:focus-within .nav-submenu-toggle,
+.nav-item.is-open .nav-submenu-toggle,
+.nav-item.is-current .nav-submenu-toggle {
+  background: var(--color-light);
+}
+
+.nav-item.is-open .nav-submenu-toggle::after {
+  transform: rotate(225deg) translate(-1px, -1px);
+}
+
+.nav-submenu {
+  position: absolute;
+  top: calc(100% + 0.45rem);
+  left: 0;
+  z-index: 120;
+  display: none;
+  min-width: 250px;
+  max-width: min(320px, calc(100vw - 2rem));
+  padding: 0.55rem;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius);
+  background: var(--color-white);
+  box-shadow: var(--shadow-soft);
+}
+
+.nav-item:hover > .nav-submenu,
+.nav-item:focus-within > .nav-submenu,
+.nav-item.is-open > .nav-submenu {
+  display: grid;
+  gap: 0.18rem;
+}
+
+.site-nav .nav-submenu a {
+  display: block;
+  border-radius: 0.45rem;
+  padding: 0.55rem 0.65rem;
+  white-space: normal;
+  line-height: 1.25;
+}
+
+.site-nav .nav-submenu a:hover,
+.site-nav .nav-submenu a:focus,
+.site-nav .nav-submenu a[aria-current="page"] {
+  background: var(--color-light);
+  color: var(--color-primary);
+}
+
+@media (max-width: 1080px) and (min-width: 921px) {
+  .site-nav {
+    font-size: 0.82rem;
+  }
+
+  .site-nav .nav-link-main {
+    padding-inline: 0.48rem;
+  }
+
+  .nav-submenu-toggle {
+    width: 1.55rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .site-nav.is-open {
+    right: 0;
+    left: 0;
+    box-sizing: border-box;
+    max-height: calc(100vh - 84px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    justify-content: stretch;
+    justify-items: stretch;
+    align-items: stretch;
+    gap: 0.35rem;
+  }
+
+  .site-nav .nav-item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 2.75rem;
+    align-items: stretch;
+    width: 100%;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    background: var(--color-white);
+    overflow: hidden;
+  }
+
+  .site-nav .nav-link-main {
+    min-height: 2.75rem;
+    border-radius: 0;
+    padding: 0.75rem 0.9rem;
+    white-space: normal;
+  }
+
+  .nav-submenu-toggle {
+    width: 100%;
+    min-height: 2.75rem;
+    border-left: 1px solid var(--color-line);
+    border-radius: 0;
+    background: var(--color-white);
+  }
+
+  .nav-submenu {
+    position: static;
+    grid-column: 1 / -1;
+    min-width: 0;
+    max-width: none;
+    width: 100%;
+    padding: 0.45rem;
+    border: 0;
+    border-top: 1px solid var(--color-line);
+    border-radius: 0;
+    box-shadow: none;
+    background: #f7faf9;
+  }
+
+  .nav-item:hover > .nav-submenu,
+  .nav-item:focus-within > .nav-submenu {
+    display: none;
+  }
+
+  .nav-item.is-open > .nav-submenu {
+    display: grid;
+  }
+
+  .site-nav .nav-submenu a {
+    padding: 0.65rem 0.75rem;
+  }
+}
