@@ -625,3 +625,205 @@ body {
     font-size: 20px;
   }
 }
+
+
+/* Phase Premium PNL - juin 2026 */
+.pnl-section {
+  padding-block: clamp(3rem, 6vw, 5rem);
+}
+
+.pnl-section-header {
+  max-width: 900px;
+  margin-bottom: 1.5rem;
+}
+
+.pnl-section-header h2 {
+  margin-bottom: 0.75rem;
+}
+
+.pnl-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.pnl-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 0;
+  padding: 1.25rem;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius);
+  background: var(--color-white);
+  box-shadow: 0 14px 36px rgba(10, 46, 56, 0.08);
+}
+
+.pnl-card-featured {
+  border-top: 4px solid var(--color-secondary);
+  background: linear-gradient(180deg, #ffffff 0%, #f6fbfa 100%);
+}
+
+.pnl-card h2,
+.pnl-card h3,
+.pnl-card p {
+  margin-top: 0;
+}
+
+.pnl-card ul {
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+.pnl-card a,
+.pnl-page-links a,
+.pnl-cta-row a {
+  overflow-wrap: anywhere;
+}
+
+.pnl-highlight {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, rgba(0, 119, 135, 0.08), rgba(242, 180, 64, 0.12));
+}
+
+.pnl-cta-row,
+.pnl-page-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.pnl-cta-row .button {
+  white-space: normal;
+  text-align: center;
+}
+
+.pnl-page-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.55rem;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--color-line);
+  border-radius: 999px;
+  background: var(--color-white);
+  color: var(--color-primary);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.pnl-badge {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(0, 119, 135, 0.1);
+  color: var(--color-primary);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.pnl-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.85rem;
+  margin-top: 1.25rem;
+}
+
+.pnl-stat {
+  padding: 1rem;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius);
+  background: var(--color-white);
+}
+
+.pnl-stat strong {
+  display: block;
+  color: var(--color-primary);
+  font-size: clamp(1.45rem, 3vw, 2.1rem);
+  line-height: 1;
+}
+
+.pnl-stat span {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--color-muted);
+  font-size: 0.92rem;
+}
+
+.pnl-timeline {
+  display: grid;
+  gap: 0.9rem;
+  margin-top: 1.5rem;
+}
+
+.pnl-timeline article {
+  padding: 1rem 1rem 1rem 1.25rem;
+  border-left: 4px solid var(--color-secondary);
+  border-radius: var(--radius);
+  background: var(--color-white);
+  box-shadow: 0 10px 26px rgba(10, 46, 56, 0.06);
+}
+
+.pnl-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.pnl-gallery figure {
+  margin: 0;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--color-white);
+}
+
+.pnl-gallery img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.pnl-gallery figcaption {
+  padding: 0.85rem;
+  color: var(--color-muted);
+  font-size: 0.92rem;
+}
+
+@media (max-width: 600px) {
+  .pnl-section {
+    padding-block: 2.4rem;
+  }
+
+  .pnl-card-grid,
+  .pnl-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .pnl-cta-row .button,
+  .pnl-page-links a {
+    width: 100%;
+  }
+
+  .pnl-stat-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 360px) {
+  .pnl-stat-grid {
+    grid-template-columns: 1fr;
+  }
+}

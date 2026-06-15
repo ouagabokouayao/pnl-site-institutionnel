@@ -1,6 +1,6 @@
 /* Préparation terrain PNL — WhatsApp */
 (function () {
-  var WHATSAPP_URL = "https://wa.me/?text=Bonjour%20Prot%C3%A9geons%20notre%20Littoral";
+  var WHATSAPP_URL = "https://wa.me/?text=Bonjour%20Prot%C3%A9geons%20notre%20Littoral%20https://protegeonsnotrelittoral.org";
 
   if (!WHATSAPP_URL || WHATSAPP_URL.indexOf("https://wa.me/?text=") !== 0) {
     return;
