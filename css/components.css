@@ -428,14 +428,34 @@
 
 .pnl-newsletter-embed {
   max-width: 680px;
-  margin: 2rem auto 1.5rem;
+  margin: 1rem auto 1.5rem;
 }
 
 .pnl-newsletter-embed iframe {
   width: 100%;
-  min-height: 620px;
+  min-height: 180px;
+  max-height: 260px;
   border: 0;
   display: block;
+}
+
+.pnl-newsletter-fallback {
+  max-width: 560px;
+  margin: 1.5rem auto 0;
+  padding: 1rem;
+  text-align: center;
+  background: #f7fbfc;
+  border: 1px solid #dce8ee;
+  border-radius: 10px;
+}
+
+.pnl-newsletter-fallback p {
+  margin: 0 0 0.75rem;
+}
+
+.pnl-newsletter-fallback a {
+  font-weight: 700;
+  color: var(--color-primary);
 }
 
 .pnl-newsletter-links {
@@ -449,7 +469,7 @@
   }
 
   .pnl-newsletter-embed iframe {
-    min-height: 700px;
+    min-height: 180px;
   }
 
   .pnl-newsletter-links {
