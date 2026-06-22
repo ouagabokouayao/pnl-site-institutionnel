@@ -1,6 +1,7 @@
 (() => {
   const input = document.getElementById("pnl-search-input");
   const results = document.getElementById("pnl-search-results");
+  const suggestions = document.querySelectorAll("[data-search-suggestion]");
   if (!input || !results) return;
 
   const normalize = (value) => String(value || "")
@@ -13,7 +14,7 @@
     if (!query.trim()) {
       const message = document.createElement("p");
       message.className = "pnl-search-message";
-      message.textContent = "Saisissez un mot-clé pour lancer la recherche.";
+      message.textContent = "Saisissez un mot-clé ou utilisez une suggestion pour trouver rapidement une page publique du site.";
       results.appendChild(message);
       return;
     }
@@ -69,6 +70,13 @@
         render(matches, query);
       };
       input.addEventListener("input", search);
+      suggestions.forEach((button) => {
+        button.addEventListener("click", () => {
+          input.value = button.dataset.searchSuggestion || "";
+          input.focus();
+          search();
+        });
+      });
       render([], "");
     })
     .catch(() => {

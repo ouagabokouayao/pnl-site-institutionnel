@@ -507,6 +507,22 @@
   margin-top: 1.5rem;
 }
 
+.pnl-search-suggestions,
+.pnl-search-direct {
+  margin-top: 1.5rem;
+}
+
+.pnl-search-suggestions h2,
+.pnl-search-direct h2 {
+  font-size: 1.15rem;
+  margin-bottom: 0.85rem;
+}
+
+.pnl-search-suggestions button {
+  cursor: pointer;
+  font: inherit;
+}
+
 .pnl-search-message {
   padding: 1rem;
   background: #f7fbfc;
