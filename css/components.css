@@ -632,14 +632,28 @@ body {
   top: 0 !important;
 }
 
+#google_translate_element .goog-te-gadget,
+#google_translate_element .goog-te-gadget-simple {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#google_translate_element select {
+  max-width: 100%;
+}
+
 @media (max-width: 768px) {
   #google_translate_element {
-    left: 10px;
-    right: auto;
-    bottom: 10px;
-    max-width: 130px;
-    font-size: 11px;
+    position: static;
+    display: block;
+    width: max-content;
+    max-width: calc(100% - 2rem);
+    margin: 0.5rem auto 0;
     padding: 3px 6px;
+    font-size: 11px;
+    overflow: hidden;
   }
 }
 
