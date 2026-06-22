@@ -4,9 +4,12 @@
   <meta name="google-site-verification" content="TIoBvesTQQGgfMW8IvXG_IftY55Yhcvlk2xe7uOMCa4" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Recherche — Protégeons notre Littoral</title>
-  <meta name="description" content="Recherche dans les pages publiques du site Protégeons notre Littoral." />
-  <link rel="canonical" href="https://protegeonsnotrelittoral.org/recherche.html" />
+  <title>Parcours guidés — Protégeons notre Littoral</title>
+  <meta name="description" content="Parcours guidés pour orienter les visiteurs vers les informations publiques, ressources et formes d’engagement de Protégeons notre Littoral." />
+  <link rel="canonical" href="https://protegeonsnotrelittoral.org/parcours.html" />
+  <link rel="alternate" type="application/rss+xml"
+    title="Protégeons notre Littoral — Actualités"
+    href="/feed-actualites.xml">
   <link rel="icon" href="assets/img/identity/favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/identity/pnl-favicon-32.png" />
   <link rel="icon" type="image/png" sizes="48x48" href="assets/img/identity/pnl-favicon-48.png" />
@@ -20,17 +23,17 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Protégeons notre Littoral">
   <meta property="og:locale" content="fr_FR">
-  <meta property="og:url" content="https://protegeonsnotrelittoral.org/recherche.html">
-  <meta property="og:title" content="Recherche — Protégeons notre Littoral">
-  <meta property="og:description" content="Recherche dans les pages publiques du site Protégeons notre Littoral.">
+  <meta property="og:url" content="https://protegeonsnotrelittoral.org/parcours.html">
+  <meta property="og:title" content="Parcours guidés — Protégeons notre Littoral">
+  <meta property="og:description" content="Parcours guidés pour orienter les visiteurs vers les informations publiques, ressources et formes d’engagement de Protégeons notre Littoral.">
   <meta property="og:image" content="https://protegeonsnotrelittoral.org/assets/img/identity/pnl-logo-header-desktop.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="375">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@ONG_OPL">
-  <meta name="twitter:title" content="Recherche — Protégeons notre Littoral">
-  <meta name="twitter:description" content="Recherche dans les pages publiques du site Protégeons notre Littoral.">
+  <meta name="twitter:title" content="Parcours guidés — Protégeons notre Littoral">
+  <meta name="twitter:description" content="Parcours guidés pour orienter les visiteurs vers les informations publiques, ressources et formes d’engagement de Protégeons notre Littoral.">
   <meta name="twitter:image" content="https://protegeonsnotrelittoral.org/assets/img/identity/pnl-logo-header-desktop.png">
 </head>
 <body>
@@ -64,9 +67,8 @@
           <div class="nav-submenu" id="nav-panel-accueil">
           <a href="index.html">Accueil</a>
           <a href="actualites.html">Actualités</a>
-          <a href="parcours.html">Parcours guidés</a>
           <a href="calendrier-evenements.html">Calendrier</a>
-          <a href="/communiques.html">Communiqués</a>
+          <a href="communiques.html">Communiqués</a>
           <a href="archives-historiques.html">Archives et nouveautés du site</a>
           </div>
         </div>
@@ -129,6 +131,7 @@
           <a href="ressource-lagunes-mangroves.html">Lagunes et mangroves</a>
           <a href="ressource-pollution-marine.html">Pollution marine</a>
           <a href="mediatheque.html">Médiathèque</a>
+          <a href="recherche.html">Recherche</a>
           <a href="comptes-rendus-terrain.html">Comptes rendus terrain</a>
           <a href="documents-institutionnels.html">Documents institutionnels</a>
           <a href="kit-media.html">Kit média</a>
@@ -164,53 +167,127 @@
     </div>
   </header>
 
+<div id="pnl-bandeau"
+  role="complementary"
+  style="background:#2e7d5e;color:white;text-align:center;padding:0.65rem 3rem;font-size:0.88rem;position:relative;z-index:100;">
+  <span>
+    📅 <strong>17 juin</strong> —
+    Journée mondiale de lutte contre la désertification et la sécheresse — Journée internationale relayée à titre pédagogique par Protégeons notre Littoral.
+  </span>
+  <a href="/calendrier-evenements.html"
+    style="color:white;margin-left:1rem;text-decoration:underline;font-weight:500;">
+    Voir le calendrier →
+  </a>
+  <button
+    onclick="document.getElementById('pnl-bandeau').style.display='none'"
+    aria-label="Fermer l'annonce"
+    style="position:absolute;right:1rem;top:50%;transform:translateY(-50%);background:transparent;border:none;color:white;font-size:1.2rem;cursor:pointer;">
+    ×
+  </button>
+</div>
+
+
+  
   <main id="main-content">
-    <nav class="breadcrumb" aria-label="Fil d’Ariane"><a href="index.html">Accueil</a><span>›</span><span>Recherche</span></nav>
     <section class="page-hero">
       <div class="container hero-grid">
         <div>
-          <p class="eyebrow">Recherche publique</p>
-          <h1>Recherche</h1>
-          <p class="hero-lead">Cette page permet de rechercher dans les pages publiques du site Protégeons notre Littoral.</p>
+          <p class="eyebrow">Parcours guidés</p>
+          <h1>Trouvez rapidement votre chemin sur le site</h1>
+          <p class="hero-lead">Cette page oriente les visiteurs vers les principales informations publiques, ressources et formes d’engagement proposées par Protégeons notre Littoral.</p>
         </div>
-        <aside class="status-panel" aria-label="Recherche interne">
-          <h2>Rechercher dans les pages publiques</h2>
-          <p>Les résultats renvoient uniquement vers les pages publiques du site.</p>
+        <aside class="hero-card premium-card" aria-label="Repères de parcours">
+          <p class="section-kicker">Orientation</p>
+          <h2>Choisir un accès utile</h2>
+          <p>Chaque parcours rassemble quelques pages essentielles selon votre besoin : découvrir, comprendre, contribuer, soutenir ou contacter l’ONG.</p>
+          <a class="button button-primary" href="/contact.html">Contacter l’ONG</a>
         </aside>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <div class="pnl-search-page">
-          <input type="search" id="pnl-search-input"
-            placeholder="Rechercher sur le site..."
-            aria-label="Rechercher sur le site">
-          <div class="pnl-search-suggestions" aria-label="Suggestions de recherche">
-            <h2>Suggestions de recherche</h2>
-            <div class="quick-links">
-              <button type="button" data-search-suggestion="littoral">littoral</button>
-              <button type="button" data-search-suggestion="observatoire">observatoire</button>
-              <button type="button" data-search-suggestion="ressources">ressources</button>
-              <button type="button" data-search-suggestion="programmes">programmes</button>
-              <button type="button" data-search-suggestion="adhésion">adhésion</button>
-              <button type="button" data-search-suggestion="newsletter">newsletter</button>
-              <button type="button" data-search-suggestion="partenariat">partenariat</button>
-              <button type="button" data-search-suggestion="contact">contact</button>
+        <div class="pnl-section-header">
+          <p class="section-kicker">Orientation rapide</p>
+          <h2>Parcours proposés</h2>
+          <p>Choisissez l’entrée qui correspond le mieux à votre recherche. Les liens renvoient uniquement vers les pages publiques du site ou vers les formulaires externes validés.</p>
+        </div>
+        <div class="pnl-guided-grid">
+          <article class="pnl-guided-card">
+            <span class="pnl-badge">1</span>
+            <h3>Découvrir l’ONG</h3>
+            <p>Comprendre l’identité, la mission, l’histoire et les repères institutionnels de l’ONG.</p>
+            <div class="pnl-guided-links">
+              <a href="/a-propos.html">À propos</a>
+              <a href="/mission-vision-valeurs.html">Mission, vision et valeurs</a>
+              <a href="/notre-histoire.html">Notre histoire</a>
+              <a href="/statuts-et-reconnaissance.html">Statuts et reconnaissance</a>
             </div>
-          </div>
-          <div id="pnl-search-results"></div>
-          <div class="pnl-search-direct">
-            <h2>Accès rapides</h2>
-            <div class="quick-links">
-              <a href="/programmes.html">Programmes</a>
-              <a href="/observatoire.html">Observatoire</a>
+          </article>
+          <article class="pnl-guided-card">
+            <span class="pnl-badge">2</span>
+            <h3>Comprendre les enjeux littoraux</h3>
+            <p>Accéder aux ressources pédagogiques, fiches thématiques et contenus publics liés aux littoraux, lagunes, mangroves et espaces marins.</p>
+            <div class="pnl-guided-links">
               <a href="/ressources.html">Ressources</a>
-              <a href="/devenir-membre.html">Devenir membre</a>
-              <a href="/newsletter-archives.html">Archives newsletter</a>
-              <a href="/contact.html">Contact</a>
+              <a href="/observatoire.html">Observatoire</a>
+              <a href="/programme-observatoire.html">Programme Observatoire</a>
             </div>
-          </div>
+          </article>
+          <article class="pnl-guided-card">
+            <span class="pnl-badge">3</span>
+            <h3>Découvrir les programmes</h3>
+            <p>Explorer les programmes structurants de l’ONG et leurs axes d’action.</p>
+            <div class="pnl-guided-links">
+              <a href="/programmes.html">Programmes</a>
+              <a href="/programme-zero-dechet-littoral.html">Zéro Déchet Littoral</a>
+              <a href="/programme-lagunes-mangroves-biodiversite.html">Lagunes, Mangroves et Biodiversité</a>
+              <a href="/programme-memoire-du-littoral.html">Mémoire du Littoral</a>
+            </div>
+          </article>
+          <article class="pnl-guided-card">
+            <span class="pnl-badge">4</span>
+            <h3>S’engager</h3>
+            <p>Trouver les pages utiles pour devenir membre, bénévole ou contribuer à la vie associative.</p>
+            <div class="pnl-guided-links">
+              <a href="/devenir-membre.html">Devenir membre</a>
+              <a href="/devenir-benevole.html">Devenir bénévole</a>
+              <a href="/adherer-soutenir.html">Adhérer et soutenir</a>
+            </div>
+          </article>
+          <article class="pnl-guided-card">
+            <span class="pnl-badge">5</span>
+            <h3>Proposer une contribution</h3>
+            <p>Orienter les propositions de ressource, d’activité, de documentation ou de contact institutionnel.</p>
+            <div class="pnl-guided-links">
+              <a href="/contact.html">Contact</a>
+              <a href="https://tally.so/r/J9okPo" target="_blank" rel="noopener noreferrer">Proposer une ressource</a>
+              <a href="/faq.html">FAQ</a>
+            </div>
+          </article>
+          <article class="pnl-guided-card">
+            <span class="pnl-badge">6</span>
+            <h3>Soutenir ou proposer un partenariat</h3>
+            <p>Comprendre les formes de soutien, de mécénat, de sponsoring éthique et de partenariat compatibles avec la mission de l’ONG.</p>
+            <div class="pnl-guided-links">
+              <a href="/soutenir-financer.html">Soutenir ou financer</a>
+              <a href="/proposer-partenariat.html">Proposer un partenariat</a>
+              <a href="/mecenat-sponsoring-ethique.html">Mécénat et sponsoring éthique</a>
+              <a href="/politique-partenariat-ethique.html">Politique de partenariat éthique</a>
+            </div>
+          </article>
+          <article class="pnl-guided-card">
+            <span class="pnl-badge">7</span>
+            <h3>Consulter les documents publics</h3>
+            <p>Accéder aux documents institutionnels, communiqués, bilans, politiques publiques du site et informations de transparence.</p>
+            <div class="pnl-guided-links">
+              <a href="/documents-institutionnels.html">Documents institutionnels</a>
+              <a href="/communiques.html">Communiqués</a>
+              <a href="/rapport-activite.html">Bilan institutionnel</a>
+              <a href="/transparence.html">Transparence</a>
+              <a href="/politique-publication.html">Politique de publication</a>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -273,11 +350,11 @@
   </div>
   </footer>
 
+  <script src="https://tally.so/widgets/embed.js"></script>
   <script src="js/navigation.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/veille-pnl.js"></script>
   <script defer src="/js/pnl-analytics.js"></script>
   <script defer src="/js/pnl-whatsapp.js"></script>
-  <script defer src="/js/pnl-share.js"></script>
-  <script src="assets/js/search.js"></script>
 </body>
 </html>

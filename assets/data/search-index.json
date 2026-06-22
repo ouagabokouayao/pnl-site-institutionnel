@@ -322,5 +322,11 @@
     "url": "/programme-zero-dechet-littoral.html",
     "description": "Programme Zéro Déchet Littoral : prévention, sensibilisation et mobilisation citoyenne autour des déchets côtiers.",
     "category": "Programmes"
+  },
+  {
+    "title": "Parcours guidés",
+    "url": "/parcours.html",
+    "description": "Orientation rapide vers les informations publiques, ressources, programmes, documents, contacts et formes d’engagement de Protégeons notre Littoral.",
+    "category": "Pages publiques"
   }
 ]
