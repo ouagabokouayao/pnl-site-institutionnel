@@ -20,14 +20,20 @@
   {
     "title": "Actualités",
     "url": "/actualites.html",
-    "description": "Actualités publiques validées de Protégeons notre Littoral.",
+    "description": "Actualités publiques validées, archives newsletter, flux RSS et journal public de Protégeons notre Littoral.",
     "category": "Actualités"
   },
   {
     "title": "Adhérer et soutenir",
     "url": "/adherer-soutenir.html",
-    "description": "Adhérer, contribuer ou soutenir Protégeons notre Littoral.",
+    "description": "Adhésion, membre, bénévolat, soutien et contribution à Protégeons notre Littoral.",
     "category": "S'engager"
+  },
+  {
+    "title": "Archives de la newsletter",
+    "url": "/newsletter-archives.html",
+    "description": "Archives des newsletters publiques de l’ONG Protégeons notre Littoral et inscription à la newsletter.",
+    "category": "Actualités"
   },
   {
     "title": "Archives historiques de Protégeons notre Littoral",
@@ -128,7 +134,7 @@
   {
     "title": "Contact",
     "url": "/contact.html",
-    "description": "Contact institutionnel de Protégeons notre Littoral : email officiel, site officiel et présences publiques utiles.",
+    "description": "Contact officiel, formulaires, newsletter et présences publiques de Protégeons notre Littoral.",
     "category": "S'engager"
   },
   {
@@ -140,7 +146,7 @@
   {
     "title": "Devenir membre",
     "url": "/devenir-membre.html",
-    "description": "Informations pour manifester son intérêt et rejoindre l",
+    "description": "Adhésion, devenir membre et participation au cadre associatif de Protégeons notre Littoral.",
     "category": "S'engager"
   },
   {
