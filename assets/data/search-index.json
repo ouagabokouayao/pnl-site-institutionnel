@@ -1,0 +1,320 @@
+[
+  {
+    "title": "À propos",
+    "url": "/a-propos.html",
+    "description": "Présentation institutionnelle de l’ONG Protégeons notre Littoral.",
+    "category": "Institution"
+  },
+  {
+    "title": "Actions et projets",
+    "url": "/actions-projets.html",
+    "description": "Formats d’action de Protégeons notre Littoral : sensibilisation, documentation citoyenne, mobilisation jeunesse, dialogue et initiatives littorales.",
+    "category": "Pages publiques"
+  },
+  {
+    "title": "Activités et repères historiques",
+    "url": "/activites-historiques.html",
+    "description": "Chronologie publique des activités, villes, événements et repères historiques issus des archives de Protégeons notre Littoral.",
+    "category": "Actualités"
+  },
+  {
+    "title": "Actualités",
+    "url": "/actualites.html",
+    "description": "Actualités publiques validées de Protégeons notre Littoral.",
+    "category": "Actualités"
+  },
+  {
+    "title": "Adhérer et soutenir",
+    "url": "/adherer-soutenir.html",
+    "description": "Adhérer, contribuer ou soutenir Protégeons notre Littoral.",
+    "category": "S'engager"
+  },
+  {
+    "title": "Archives historiques de Protégeons notre Littoral",
+    "url": "/archives-historiques.html",
+    "description": "Archives historiques publiques et supports sélectionnés de Protégeons notre Littoral, sans publication de documents sensibles.",
+    "category": "Actualités"
+  },
+  {
+    "title": "Bilan institutionnel 2025-2026",
+    "url": "/rapport-activite.html",
+    "description": "Bilan public des principales avancées institutionnelles visibles de Protégeons notre Littoral, sans données financières ni chiffres d’impact non confirmés.",
+    "category": "Informations légales"
+  },
+  {
+    "title": "Calendrier et événements",
+    "url": "/calendrier-evenements.html",
+    "description": "Calendrier public de l",
+    "category": "Actualités"
+  },
+  {
+    "title": "Communiqué institutionnel",
+    "url": "/communique-developpement-institutionnel.html",
+    "description": "Communiqué institutionnel de l",
+    "category": "Pages publiques"
+  },
+  {
+    "title": "Communiqués",
+    "url": "/communiques.html",
+    "description": "Communiqués institutionnels, annonces publiques et appels à contribution de l",
+    "category": "Actualités"
+  },
+  {
+    "title": "Comprendre l’érosion côtière",
+    "url": "/ressource-erosion-cotiere.html",
+    "description": "Fiche pédagogique de Protégeons notre Littoral pour comprendre l’érosion côtière, ses causes générales, ses effets et l’intérêt de l’observation citoyenne.",
+    "category": "Ressources"
+  },
+  {
+    "title": "Comprendre la pollution marine",
+    "url": "/ressource-pollution-marine.html",
+    "description": "Fiche pédagogique de Protégeons notre Littoral pour comprendre les pollutions marines visibles et invisibles et leurs impacts.",
+    "category": "Ressources"
+  },
+  {
+    "title": "Comprendre le littoral",
+    "url": "/fiche-ressource-littoral.html",
+    "description": "Fiche ressource générale sur le littoral : repères pédagogiques, enjeux, gestes utiles et contribution responsable.",
+    "category": "Ressources"
+  },
+  {
+    "title": "Comprendre les déchets littoraux",
+    "url": "/fiche-ressource-dechets-littoraux.html",
+    "description": "Fiche ressource sur les déchets littoraux : prévention, impacts, gestes responsables et contribution citoyenne.",
+    "category": "Ressources"
+  },
+  {
+    "title": "Comprendre les déchets littoraux",
+    "url": "/ressource-dechets-littoraux.html",
+    "description": "Fiche pédagogique de Protégeons notre Littoral pour comprendre les déchets littoraux, leurs impacts et les gestes de prévention.",
+    "category": "Ressources"
+  },
+  {
+    "title": "Comprendre les enjeux du littoral",
+    "url": "/ressources.html",
+    "description": "Ressources publiques et documents validés de Protégeons notre Littoral.",
+    "category": "Ressources"
+  },
+  {
+    "title": "Comprendre les lagunes",
+    "url": "/fiche-ressource-lagunes.html",
+    "description": "Fiche ressource sur les lagunes : rôle écologique, usages, pressions et sensibilisation citoyenne.",
+    "category": "Ressources"
+  },
+  {
+    "title": "Comprendre les lagunes et les mangroves",
+    "url": "/ressource-lagunes-mangroves.html",
+    "description": "Fiche pédagogique de Protégeons notre Littoral sur les lagunes, les mangroves, la biodiversité et la protection des territoires côtiers.",
+    "category": "Ressources"
+  },
+  {
+    "title": "Comprendre les mangroves",
+    "url": "/fiche-ressource-mangroves.html",
+    "description": "Fiche ressource sur les mangroves : milieux fragiles, biodiversité, protection côtière et sensibilisation.",
+    "category": "Ressources"
+  },
+  {
+    "title": "Comptes rendus et visites de terrain",
+    "url": "/comptes-rendus-terrain.html",
+    "description": "Synthèses publiques issues des activités, visites de terrain, repères territoriaux et dossiers documentaires de Protégeons notre Littoral.",
+    "category": "Actualités"
+  },
+  {
+    "title": "Confidentialité et formulaires",
+    "url": "/confidentialite-formulaires.html",
+    "description": "Page sur la confidentialité des formulaires d",
+    "category": "Informations légales"
+  },
+  {
+    "title": "Contact",
+    "url": "/contact.html",
+    "description": "Contact institutionnel de Protégeons notre Littoral : email officiel, site officiel et présences publiques utiles.",
+    "category": "S'engager"
+  },
+  {
+    "title": "Devenir bénévole",
+    "url": "/devenir-benevole.html",
+    "description": "Missions possibles de bénévolat auprès de l",
+    "category": "S'engager"
+  },
+  {
+    "title": "Devenir membre",
+    "url": "/devenir-membre.html",
+    "description": "Informations pour manifester son intérêt et rejoindre l",
+    "category": "S'engager"
+  },
+  {
+    "title": "Dialogues du Littoral",
+    "url": "/programme-dialogues-du-littoral.html",
+    "description": "Programme Dialogues du Littoral : échanges, rencontres et contributions multi-acteurs autour de la protection durable des littoraux.",
+    "category": "Programmes"
+  },
+  {
+    "title": "Documents institutionnels",
+    "url": "/documents-institutionnels.html",
+    "description": "Espace des documents publics validés de l",
+    "category": "Informations légales"
+  },
+  {
+    "title": "FAQ",
+    "url": "/faq.html",
+    "description": "Questions fréquentes sur l",
+    "category": "S'engager"
+  },
+  {
+    "title": "Gouvernance et organisation",
+    "url": "/gouvernance-organisation.html",
+    "description": "Gouvernance, organisation générale et principes de coordination de l",
+    "category": "Institution"
+  },
+  {
+    "title": "Jeunesse Littorale et Climat",
+    "url": "/programme-jeunesse-littorale-climat.html",
+    "description": "Programme Jeunesse Littorale et Climat : sensibilisation, bénévolat, relais jeunesse et éducation citoyenne aux enjeux littoraux.",
+    "category": "Programmes"
+  },
+  {
+    "title": "Kit média",
+    "url": "/kit-media.html",
+    "description": "Kit média public de l",
+    "category": "Ressources"
+  },
+  {
+    "title": "Lagunes, Mangroves et Biodiversité",
+    "url": "/programme-lagunes-mangroves-biodiversite.html",
+    "description": "Programme Lagunes, Mangroves et Biodiversité : sensibilisation aux écosystèmes littoraux, lagunaires et aux milieux fragiles.",
+    "category": "Programmes"
+  },
+  {
+    "title": "Mécénat et sponsoring éthique",
+    "url": "/mecenat-sponsoring-ethique.html",
+    "description": "Cadre de mécénat, sponsoring éthique, dons et partenariats responsables pour soutenir l",
+    "category": "S'engager"
+  },
+  {
+    "title": "Médiathèque publique",
+    "url": "/mediatheque.html",
+    "description": "Médiathèque publique de l",
+    "category": "Ressources"
+  },
+  {
+    "title": "Mémoire du Littoral",
+    "url": "/programme-memoire-du-littoral.html",
+    "description": "Programme Mémoire du Littoral : archives autorisées, récits, repères historiques et patrimoine littoral publiés après vérification.",
+    "category": "Programmes"
+  },
+  {
+    "title": "Mentions légales",
+    "url": "/mentions-legales.html",
+    "description": "Mentions légales du site officiel de l’ONG Protégeons notre Littoral.",
+    "category": "Informations légales"
+  },
+  {
+    "title": "Mission, vision et valeurs",
+    "url": "/mission-vision-valeurs.html",
+    "description": "La mission, la vision et les valeurs de Protégeons notre Littoral pour protéger durablement les littoraux, lagunes, mangroves et espaces marins.",
+    "category": "Institution"
+  },
+  {
+    "title": "Mot du président",
+    "url": "/mot-du-president.html",
+    "description": "Mot institutionnel du président de l",
+    "category": "Institution"
+  },
+  {
+    "title": "Notre histoire",
+    "url": "/notre-histoire.html",
+    "description": "Origine citoyenne, structuration associative, archives historiques et vocation internationale de Protégeons notre Littoral.",
+    "category": "Institution"
+  },
+  {
+    "title": "Observatoire Protégeons notre Littoral",
+    "url": "/observatoire.html",
+    "description": "Observatoire Protégeons notre Littoral, programme interne citoyen, documentaire, pédagogique et territorial.",
+    "category": "Observatoire"
+  },
+  {
+    "title": "Observatoire Protégeons notre Littoral",
+    "url": "/programme-observatoire.html",
+    "description": "Programme Observatoire de l",
+    "category": "Programmes"
+  },
+  {
+    "title": "Partenaires",
+    "url": "/partenaires.html",
+    "description": "Cadre de coopération et de publication des partenaires de Protégeons notre Littoral.",
+    "category": "Pages publiques"
+  },
+  {
+    "title": "Plan de développement institutionnel",
+    "url": "/plan-developpement-institutionnel.html",
+    "description": "Plan de développement institutionnel de l",
+    "category": "Institution"
+  },
+  {
+    "title": "Politique de monétisation responsable",
+    "url": "/politique-monetisation-responsable.html",
+    "description": "Cadre de monétisation responsable de l",
+    "category": "Informations légales"
+  },
+  {
+    "title": "Politique de partenariat éthique",
+    "url": "/politique-partenariat-ethique.html",
+    "description": "Politique de partenariat éthique de l",
+    "category": "Informations légales"
+  },
+  {
+    "title": "Politique de publication",
+    "url": "/politique-publication.html",
+    "description": "Politique de publication de l",
+    "category": "Informations légales"
+  },
+  {
+    "title": "Presse et médias",
+    "url": "/presse-medias.html",
+    "description": "Informations presse et médias de l",
+    "category": "Ressources"
+  },
+  {
+    "title": "Proposer un partenariat",
+    "url": "/proposer-partenariat.html",
+    "description": "Cadre pour proposer un partenariat à l",
+    "category": "S'engager"
+  },
+  {
+    "title": "Protéger, documenter et transmettre la mémoire des littoraux",
+    "url": "/index.html",
+    "description": "Site institutionnel de l’ONG Protégeons notre Littoral : protection, valorisation et gouvernance durable des espaces littoraux, marins et lagunaires.",
+    "category": "Pages publiques"
+  },
+  {
+    "title": "Six programmes pour protéger, documenter et transmettre",
+    "url": "/programmes.html",
+    "description": "Programmes institutionnels de Protégeons notre Littoral.",
+    "category": "Programmes"
+  },
+  {
+    "title": "Soutenir et financer l'ONG",
+    "url": "/soutenir-financer.html",
+    "description": "Façons de soutenir financièrement, matériellement ou logistiquement l",
+    "category": "S'engager"
+  },
+  {
+    "title": "Statuts et reconnaissance",
+    "url": "/statuts-et-reconnaissance.html",
+    "description": "Repères publics confirmés sur le cadre associatif, la gouvernance et l’ancrage institutionnel de Protégeons notre Littoral.",
+    "category": "Informations légales"
+  },
+  {
+    "title": "Transparence",
+    "url": "/transparence.html",
+    "description": "Principes de transparence, de publication responsable et de protection des données de l",
+    "category": "Informations légales"
+  },
+  {
+    "title": "Zéro Déchet Littoral",
+    "url": "/programme-zero-dechet-littoral.html",
+    "description": "Programme Zéro Déchet Littoral : prévention, sensibilisation et mobilisation citoyenne autour des déchets côtiers.",
+    "category": "Programmes"
+  }
+]

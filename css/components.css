@@ -482,6 +482,38 @@
   }
 }
 
+.pnl-search-page {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.pnl-search-page input[type="search"] {
+  width: 100%;
+  min-height: 3.25rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid #dce8ee;
+  border-radius: 10px;
+  background: #ffffff;
+  color: var(--color-text);
+  font: inherit;
+}
+
+.pnl-search-page input[type="search"]:focus {
+  outline: 3px solid rgba(31, 136, 115, 0.2);
+  border-color: var(--color-primary);
+}
+
+#pnl-search-results {
+  margin-top: 1.5rem;
+}
+
+.pnl-search-message {
+  padding: 1rem;
+  background: #f7fbfc;
+  border: 1px solid #dce8ee;
+  border-radius: 10px;
+}
+
 .data-list {
   align-items: stretch;
 }
