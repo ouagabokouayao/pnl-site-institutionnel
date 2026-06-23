@@ -241,6 +241,19 @@
   color: var(--color-primary);
 }
 
+@media (min-width: 921px) {
+  #nav-panel-ressources {
+    min-width: 360px;
+    max-width: min(460px, calc(100vw - 2rem));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #nav-panel-ressources a {
+    padding: 0.48rem 0.55rem;
+    font-size: 0.86rem;
+  }
+}
+
 @media (max-width: 1080px) and (min-width: 921px) {
   .site-nav {
     font-size: 0.82rem;

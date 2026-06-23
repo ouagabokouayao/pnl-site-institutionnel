@@ -398,7 +398,7 @@
 }
 
 .pnl-newsletter-section {
-  padding: 3rem 1rem;
+  padding: 2.4rem 1rem;
   background: #eef5f7;
 }
 
@@ -709,7 +709,8 @@ body {
   font-weight: 600;
 }
 
-.pnl-share a {
+.pnl-share a,
+.pnl-share button {
   font-size: 0.85rem;
   padding: 0.35rem 0.8rem;
   border: 1px solid #d9e1e7;
@@ -717,12 +718,31 @@ body {
   text-decoration: none;
   color: #1a3a5c;
   background: #ffffff;
+  font-family: inherit;
+  line-height: 1.35;
+  cursor: pointer;
 }
 
 .pnl-share a:hover,
-.pnl-share a:focus {
+.pnl-share a:focus,
+.pnl-share button:hover,
+.pnl-share button:focus {
   border-color: #1a5276;
   color: #0f3554;
+}
+
+.section-compact {
+  padding-block: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.form-access-panel {
+  display: grid;
+  gap: 0.9rem;
+  margin: 1.25rem 0 0;
+}
+
+.form-access-panel p {
+  margin: 0;
 }
 
 /* Préparation terrain PNL — WhatsApp flottant */
@@ -765,6 +785,22 @@ body {
     grid-template-columns: 1fr !important;
   }
 
+  .footer-nav-rapide,
+  .footer-reseaux {
+    gap: 0.65rem !important;
+  }
+
+  .footer-nav-rapide a,
+  .footer-reseaux a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.15rem;
+  }
+
+  .footer-reseaux span {
+    display: none;
+  }
+
   .pnl-whatsapp-float {
     right: 14px;
     bottom: 14px;
@@ -794,6 +830,12 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1rem;
   margin-top: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .pnl-program-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 .pnl-card {
