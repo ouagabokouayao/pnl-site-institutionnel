@@ -173,6 +173,14 @@
   white-space: nowrap;
 }
 
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-top: 1.35rem;
+}
+
 .button-secondary {
   background: var(--color-white);
   color: var(--color-primary);
@@ -352,10 +360,84 @@
 
   .button {
     width: 100%;
+    white-space: normal;
+    text-align: center;
   }
 
   .button-row {
     width: 100%;
+  }
+
+  .hero-actions {
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .page-hero,
+  .page-hero .container,
+  .section .container,
+  .hero-grid,
+  .hero-grid > *,
+  .pnl-highlight,
+  .pnl-section-header,
+  .pnl-card-grid,
+  .pnl-card,
+  .pnl-pathway-grid,
+  .pnl-pathway-card {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-inline: 1rem;
+  }
+
+  .page-hero,
+  .section {
+    overflow-x: hidden;
+  }
+
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  .hero-actions .button,
+  .hero-lead,
+  .eyebrow {
+    max-width: calc(100vw - 2rem);
+  }
+
+  .hero-lead {
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
+
+  .pnl-highlight h2,
+  .pnl-section-header h2,
+  .pnl-highlight p,
+  .pnl-section-header p,
+  .pnl-card h3,
+  .pnl-pathway-card h3,
+  .pnl-card p,
+  .pnl-pathway-card p {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
+
+  #pnl-bandeau {
+    padding: 0.75rem 2.75rem 0.75rem 1rem !important;
+    font-size: 0.82rem !important;
+    line-height: 1.45;
+  }
+
+  #pnl-bandeau span,
+  #pnl-bandeau a {
+    display: block;
+    margin-left: 0 !important;
   }
 }
 
@@ -1139,5 +1221,42 @@ body {
   .pnl-guided-card,
   .pnl-pathway-card {
     padding: 1rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .page-hero .container,
+  .section .container,
+  .pnl-highlight,
+  .pnl-section-header,
+  .pnl-card-grid,
+  .pnl-card,
+  .pnl-pathway-grid,
+  .pnl-pathway-card {
+    width: min(100%, calc(100vw - 2rem));
+    max-width: calc(100vw - 2rem);
+    min-width: 0;
+  }
+
+  .pnl-card-grid,
+  .pnl-pathway-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .pnl-highlight h2,
+  .pnl-section-header h2,
+  .pnl-highlight p,
+  .pnl-section-header p,
+  .pnl-card h3,
+  .pnl-pathway-card h3,
+  .pnl-card p,
+  .pnl-pathway-card p,
+  .hero-lead {
+    display: block;
+    width: min(100%, calc(100vw - 4.5rem)) !important;
+    max-width: calc(100vw - 4.5rem) !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+    word-break: normal;
   }
 }
