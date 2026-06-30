@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-06-29",
+    "titre": "Le site institutionnel de Protégeons notre Littoral évolue vers une expérience plus claire et immersive",
+    "type": "actualite-site",
+    "resume": "Le site public de l’ONG a été renforcé pour mieux présenter les programmes, l’Observatoire, les ressources et les parcours d’engagement autour des littoraux, lagunes, mangroves et espaces marins.",
+    "page_liee": "index.html",
+    "statut": "publie"
+  },
+  {
+    "date": "2026-06-29",
+    "titre": "De nouveaux parcours facilitent l’engagement des membres, bénévoles et contributeurs",
+    "type": "actualite-engagement",
+    "resume": "Les pages d’adhésion, de bénévolat, de soutien et de contribution documentaire ont été clarifiées afin d’orienter les personnes souhaitant comprendre, contribuer ou rejoindre la mobilisation citoyenne.",
+    "page_liee": "adherer-soutenir.html",
+    "statut": "publie"
+  },
+  {
+    "date": "2026-06-29",
+    "titre": "L’Observatoire et les ressources pédagogiques gagnent en visibilité",
+    "type": "actualite-observatoire",
+    "resume": "Les contenus liés à l’Observatoire, aux fiches ressources et à la mémoire du littoral sont mieux structurés pour soutenir la sensibilisation, la documentation et la transmission.",
+    "page_liee": "observatoire.html",
+    "statut": "publie"
+  },
+  {
+    "date": "2026-06-29",
+    "titre": "La rubrique Actualités devient le journal public de l’ONG",
+    "type": "actualite-communication",
+    "resume": "La rubrique Actualités rassemble les informations publiques validées, les communiqués, les messages de sensibilisation et les évolutions institutionnelles du site.",
+    "page_liee": "actualites.html",
+    "statut": "publie"
+  },
+  {
     "date": "2026-06-08",
     "titre": "Nouvelle étape institutionnelle pour Protégeons notre Littoral",
     "type": "actualite-ong",
